@@ -94,9 +94,6 @@ a:hover { text-decoration: underline; }
     grid-template-columns: 1fr 1.2fr;
     gap: 3rem;
     align-items: start;
-    opacity: 0;
-    transform: translateY(40px);
-    transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
 .chapter.visible {
@@ -104,7 +101,7 @@ a:hover { text-decoration: underline; }
     transform: translateY(0);
 }
 
-.chapter .narrative { position: sticky; top: 6rem; }
+.chapter .narrative { }
 
 .chapter h2 {
     font-size: 1.8rem;
@@ -176,12 +173,9 @@ a:hover { text-decoration: underline; }
     background: linear-gradient(180deg, var(--bg) 0%, #0d1020 100%);
     padding: 6rem 2rem;
     text-align: center;
-    opacity: 0;
-    transform: translateY(40px);
-    transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
-.interactive.visible { opacity: 1; transform: translateY(0); }
+.interactive.visible { }
 
 .interactive-inner { max-width: 700px; margin: 0 auto; }
 

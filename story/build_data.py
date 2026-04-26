@@ -143,25 +143,49 @@ with open(OUT / "tracker_trends.json", "w") as f:
 print("✓ tracker_trends.json")
 
 
-# ── 4. Average trackers per site over time ──────────────────────────────
+# ── 4. Tracking scale over time ──────────────────────────────────────
 
-avg_over_time = query("""
+# No-blocking: distribution of tracker counts + comparison with blocking
+scale_data = query("""
     SELECT strftime('%Y-%m', s.start_time) AS month,
+           s.no_blocking,
+           COUNT(*) AS total_sites,
+           SUM(CASE WHEN cnt = 0 THEN 1 ELSE 0 END) AS zero,
+           SUM(CASE WHEN cnt BETWEEN 1 AND 4 THEN 1 ELSE 0 END) AS low,
+           SUM(CASE WHEN cnt BETWEEN 5 AND 9 THEN 1 ELSE 0 END) AS medium,
+           SUM(CASE WHEN cnt BETWEEN 10 AND 19 THEN 1 ELSE 0 END) AS high,
+           SUM(CASE WHEN cnt >= 20 THEN 1 ELSE 0 END) AS extreme,
            ROUND(AVG(cnt), 1) AS avg_trackers
     FROM (
-        SELECT tr.scan_id, COUNT(DISTINCT tr.tracker_id) AS cnt
-        FROM tracking tr
-        JOIN scan s ON s.id = tr.scan_id
-        WHERE s.no_blocking = 0
-        GROUP BY tr.scan_id, tr.site_id
+        SELECT tr.scan_id, tr.site_id, COUNT(DISTINCT tr.tracker_id) AS cnt
+        FROM tracking tr GROUP BY tr.scan_id, tr.site_id
     ) sub
     JOIN scan s ON s.id = sub.scan_id
-    GROUP BY month ORDER BY month
+    GROUP BY month, s.no_blocking
+    ORDER BY month
 """)
 
-with open(OUT / "avg_trackers_over_time.json", "w") as f:
-    json.dump(avg_over_time, f, indent=2)
-print("✓ avg_trackers_over_time.json")
+# Separate into no-blocking (true picture) and blocking (with PB)
+tracking_scale = {
+    "no_blocking": [],
+    "blocking": []
+}
+for row in scale_data:
+    t = row["total_sites"]
+    entry = {
+        "month": row["month"],
+        "avg": row["avg_trackers"],
+        "pct_low": round(100 * row["low"] / t, 1),
+        "pct_medium": round(100 * row["medium"] / t, 1),
+        "pct_high": round(100 * row["high"] / t, 1),
+        "pct_extreme": round(100 * row["extreme"] / t, 1),
+    }
+    key = "no_blocking" if row["no_blocking"] else "blocking"
+    tracking_scale[key].append(entry)
+
+with open(OUT / "tracking_scale.json", "w") as f:
+    json.dump(tracking_scale, f, indent=2)
+print("✓ tracking_scale.json")
 
 
 # ── 5. Tracking types breakdown ─────────────────────────────────────────

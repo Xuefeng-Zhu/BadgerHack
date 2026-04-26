@@ -33,12 +33,12 @@ async function loadJSON(file) {
 }
 
 async function init() {
-    const [stats, topTrackers, trends, avgOverTime, types, concentration, sites, mostTracked] =
+    const [stats, topTrackers, trends, trackingScale, types, concentration, sites, mostTracked] =
         await Promise.all([
             loadJSON("stats.json"),
             loadJSON("top_trackers.json"),
             loadJSON("tracker_trends.json"),
-            loadJSON("avg_trackers_over_time.json"),
+            loadJSON("tracking_scale.json"),
             loadJSON("tracking_types.json"),
             loadJSON("concentration.json"),
             loadJSON("site_index.json"),
@@ -48,7 +48,7 @@ async function init() {
     siteIndex = sites;
 
     fillStats(stats);
-    renderAvgOverTime(avgOverTime);
+    renderTrackingScale(trackingScale);
     renderTopTrackers(topTrackers, stats);
     renderConcentration(concentration);
     renderTypes(types);
@@ -73,24 +73,91 @@ function setText(id, val) {
     if (el) el.textContent = val;
 }
 
-/* ── Chart: Average trackers over time ───────────────────────────── */
+/* ── Chart: Tracking scale — stacked area + PB comparison ────────── */
 
-function renderAvgOverTime(data) {
+function renderTrackingScale(data) {
+    const nb = data.no_blocking;
+    const bl = data.blocking;
+
+    if (!nb || nb.length === 0) return;
+
     const fig = {
-        data: [{
-            x: data.map(d => d.month),
-            y: data.map(d => d.avg_trackers),
-            type: "scatter",
-            mode: "lines",
-            fill: "tozeroy",
-            fillcolor: "rgba(108,140,255,0.1)",
-            line: { color: "#6c8cff", width: 2.5 },
-            hovertemplate: "%{x}<br>Avg trackers: <b>%{y}</b><extra></extra>"
-        }],
+        data: [
+            {
+                x: nb.map(d => d.month), y: nb.map(d => d.pct_extreme),
+                name: "20+ trackers", type: "scatter", mode: "lines",
+                fill: "tozeroy", fillcolor: "rgba(248,113,113,0.6)",
+                line: { color: "#f87171", width: 0 },
+                stackgroup: "one",
+                hovertemplate: "%{x}: %{y}% of sites<extra>20+ trackers</extra>"
+            },
+            {
+                x: nb.map(d => d.month), y: nb.map(d => d.pct_high),
+                name: "10–19 trackers", type: "scatter", mode: "lines",
+                fill: "tonexty", fillcolor: "rgba(251,146,60,0.5)",
+                line: { color: "#fb923c", width: 0 },
+                stackgroup: "one",
+                hovertemplate: "%{x}: %{y}% of sites<extra>10–19 trackers</extra>"
+            },
+            {
+                x: nb.map(d => d.month), y: nb.map(d => d.pct_medium),
+                name: "5–9 trackers", type: "scatter", mode: "lines",
+                fill: "tonexty", fillcolor: "rgba(251,191,36,0.4)",
+                line: { color: "#fbbf24", width: 0 },
+                stackgroup: "one",
+                hovertemplate: "%{x}: %{y}% of sites<extra>5–9 trackers</extra>"
+            },
+            {
+                x: nb.map(d => d.month), y: nb.map(d => d.pct_low),
+                name: "1–4 trackers", type: "scatter", mode: "lines",
+                fill: "tonexty", fillcolor: "rgba(74,222,128,0.3)",
+                line: { color: "#4ade80", width: 0 },
+                stackgroup: "one",
+                hovertemplate: "%{x}: %{y}% of sites<extra>1–4 trackers</extra>"
+            },
+            // Average line for no-blocking
+            {
+                x: nb.map(d => d.month), y: nb.map(d => d.avg),
+                name: "Avg (no blocker)", type: "scatter", mode: "lines+markers",
+                line: { color: "#fff", width: 2.5, dash: "dot" },
+                marker: { size: 4, color: "#fff" },
+                yaxis: "y2",
+                hovertemplate: "%{x}: <b>%{y} trackers/site</b><extra>Without Privacy Badger</extra>"
+            },
+            // Average line for blocking (Privacy Badger ON)
+            ...(bl && bl.length > 0 ? [{
+                x: bl.map(d => d.month), y: bl.map(d => d.avg),
+                name: "Avg (Privacy Badger)", type: "scatter", mode: "lines+markers",
+                line: { color: "#6c8cff", width: 2.5 },
+                marker: { size: 4, color: "#6c8cff" },
+                yaxis: "y2",
+                hovertemplate: "%{x}: <b>%{y} trackers/site</b><extra>With Privacy Badger</extra>"
+            }] : []),
+        ],
         layout: {
             ...PLOT_LAYOUT,
-            yaxis: { ...PLOT_LAYOUT.yaxis, title: "Avg trackers per site" },
-            height: 380,
+            height: 420,
+            yaxis: {
+                ...PLOT_LAYOUT.yaxis,
+                title: "% of sites (stacked)",
+                ticksuffix: "%",
+                side: "left",
+            },
+            yaxis2: {
+                title: "Avg trackers per site",
+                overlaying: "y",
+                side: "right",
+                showgrid: false,
+                titlefont: { color: "#8b8fa3" },
+                tickfont: { color: "#8b8fa3" },
+                rangemode: "tozero",
+            },
+            legend: {
+                orientation: "h", y: -0.2,
+                font: { color: "#8b8fa3", size: 11 },
+                xanchor: "center", x: 0.5,
+            },
+            hovermode: "x unified",
         }
     };
     Plotly.newPlot("chart-avg-over-time", fig.data, fig.layout, PLOT_CONFIG);
@@ -497,20 +564,10 @@ function getGrade(count) {
     return { letter: "F", label: "Heavy tracking" };
 }
 
-/* ── Scroll animations ───────────────────────────────────────────── */
+/* ── Scroll animations (disabled) ─────────────────────────────────── */
 
 function setupScrollObserver() {
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add("visible");
-            }
-        });
-    }, { threshold: 0.15 });
-
-    document.querySelectorAll(".chapter, .interactive").forEach(el => {
-        observer.observe(el);
-    });
+    // animations removed for layout stability
 }
 
 /* ── Go ──────────────────────────────────────────────────────────── */
