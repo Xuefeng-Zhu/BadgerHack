@@ -206,7 +206,7 @@ print("✓ tracking_types.json")
 
 total_obs = db.execute("""
     SELECT COUNT(*) FROM tracking tr
-    JOIN scan s ON s.id = tr.scan_id WHERE s.no_blocking = 0
+    JOIN scan s ON s.id = tr.scan_id WHERE s.no_blocking = 1
 """).fetchone()[0]
 
 concentration = query("""
@@ -214,7 +214,7 @@ concentration = query("""
     FROM tracking tr
     JOIN tracker t ON t.id = tr.tracker_id
     JOIN scan s ON s.id = tr.scan_id
-    WHERE s.no_blocking = 0
+    WHERE s.no_blocking = 1
     GROUP BY t.base ORDER BY observations DESC LIMIT 50
 """)
 

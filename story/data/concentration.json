@@ -1,252 +1,252 @@
 [
   {
-    "name": "2o7.net",
-    "observations": 4346,
-    "cumulative_pct": 0.1
-  },
-  {
-    "name": "mail.ru",
-    "observations": 3268,
-    "cumulative_pct": 0.3
-  },
-  {
-    "name": "youtube.com",
-    "observations": 3091,
-    "cumulative_pct": 0.4
-  },
-  {
-    "name": "optimizely.com",
-    "observations": 3055,
-    "cumulative_pct": 0.5
-  },
-  {
-    "name": "paypal.com",
-    "observations": 3048,
-    "cumulative_pct": 0.6
-  },
-  {
-    "name": "brightcove.com",
-    "observations": 2987,
-    "cumulative_pct": 0.7
-  },
-  {
-    "name": "trustarc.com",
-    "observations": 2973,
-    "cumulative_pct": 0.8
-  },
-  {
-    "name": "twitter.com",
-    "observations": 2940,
-    "cumulative_pct": 0.9
-  },
-  {
-    "name": "mgid.com",
-    "observations": 2937,
-    "cumulative_pct": 1.0
-  },
-  {
-    "name": "adobe.com",
-    "observations": 2925,
-    "cumulative_pct": 1.1
-  },
-  {
-    "name": "salesforce.com",
-    "observations": 2898,
-    "cumulative_pct": 1.2
-  },
-  {
-    "name": "viafoura.co",
-    "observations": 2892,
-    "cumulative_pct": 1.3
-  },
-  {
     "name": "google.com",
-    "observations": 2892,
-    "cumulative_pct": 1.3
-  },
-  {
-    "name": "lightboxcdn.com",
-    "observations": 2889,
-    "cumulative_pct": 1.4
-  },
-  {
-    "name": "force.com",
-    "observations": 2882,
-    "cumulative_pct": 1.5
-  },
-  {
-    "name": "fwmrm.net",
-    "observations": 2875,
-    "cumulative_pct": 1.6
-  },
-  {
-    "name": "spot.im",
-    "observations": 2874,
-    "cumulative_pct": 1.7
-  },
-  {
-    "name": "tinypass.com",
-    "observations": 2872,
-    "cumulative_pct": 1.8
-  },
-  {
-    "name": "gigya.com",
-    "observations": 2870,
-    "cumulative_pct": 1.9
-  },
-  {
-    "name": "livechatinc.com",
-    "observations": 2821,
-    "cumulative_pct": 2.0
-  },
-  {
-    "name": "stripe.com",
-    "observations": 2820,
-    "cumulative_pct": 2.1
-  },
-  {
-    "name": "marketo.com",
-    "observations": 2808,
-    "cumulative_pct": 2.2
-  },
-  {
-    "name": "qualtrics.com",
-    "observations": 2804,
-    "cumulative_pct": 2.3
-  },
-  {
-    "name": "instagram.com",
-    "observations": 2804,
-    "cumulative_pct": 2.4
-  },
-  {
-    "name": "evergage.com",
-    "observations": 2803,
-    "cumulative_pct": 2.5
-  },
-  {
-    "name": "omtrdc.net",
-    "observations": 2790,
-    "cumulative_pct": 2.6
-  },
-  {
-    "name": "bing.com",
-    "observations": 2788,
-    "cumulative_pct": 2.7
-  },
-  {
-    "name": "scorecardresearch.com",
-    "observations": 2787,
-    "cumulative_pct": 2.8
-  },
-  {
-    "name": "zendesk.com",
-    "observations": 2783,
-    "cumulative_pct": 2.9
-  },
-  {
-    "name": "yahoo.com",
-    "observations": 2782,
-    "cumulative_pct": 3.0
-  },
-  {
-    "name": "gemius.pl",
-    "observations": 2782,
-    "cumulative_pct": 3.0
+    "observations": 546933,
+    "cumulative_pct": 5.6
   },
   {
     "name": "doubleclick.net",
-    "observations": 2779,
-    "cumulative_pct": 3.1
+    "observations": 509552,
+    "cumulative_pct": 10.8
   },
   {
-    "name": "pinterest.com",
-    "observations": 2778,
-    "cumulative_pct": 3.2
+    "name": "googlesyndication.com",
+    "observations": 222582,
+    "cumulative_pct": 13.0
   },
   {
-    "name": "hubspot.com",
-    "observations": 2777,
-    "cumulative_pct": 3.3
+    "name": "facebook.com",
+    "observations": 187257,
+    "cumulative_pct": 14.9
+  },
+  {
+    "name": "criteo.com",
+    "observations": 164008,
+    "cumulative_pct": 16.6
+  },
+  {
+    "name": "adnxs.com",
+    "observations": 162546,
+    "cumulative_pct": 18.3
+  },
+  {
+    "name": "adsrvr.org",
+    "observations": 141956,
+    "cumulative_pct": 19.7
+  },
+  {
+    "name": "amazon-adsystem.com",
+    "observations": 138413,
+    "cumulative_pct": 21.1
+  },
+  {
+    "name": "rubiconproject.com",
+    "observations": 137232,
+    "cumulative_pct": 22.5
+  },
+  {
+    "name": "pubmatic.com",
+    "observations": 128234,
+    "cumulative_pct": 23.8
+  },
+  {
+    "name": "onetrust.com",
+    "observations": 126182,
+    "cumulative_pct": 25.1
+  },
+  {
+    "name": "linkedin.com",
+    "observations": 123425,
+    "cumulative_pct": 26.4
+  },
+  {
+    "name": "id5-sync.com",
+    "observations": 120203,
+    "cumulative_pct": 27.6
+  },
+  {
+    "name": "crwdcntrl.net",
+    "observations": 108634,
+    "cumulative_pct": 28.7
+  },
+  {
+    "name": "creativecdn.com",
+    "observations": 106369,
+    "cumulative_pct": 29.8
+  },
+  {
+    "name": "openx.net",
+    "observations": 106228,
+    "cumulative_pct": 30.9
+  },
+  {
+    "name": "bidswitch.net",
+    "observations": 100793,
+    "cumulative_pct": 31.9
+  },
+  {
+    "name": "bing.com",
+    "observations": 100160,
+    "cumulative_pct": 32.9
+  },
+  {
+    "name": "dnacdn.net",
+    "observations": 98053,
+    "cumulative_pct": 33.9
   },
   {
     "name": "demdex.net",
-    "observations": 2775,
-    "cumulative_pct": 3.4
+    "observations": 94046,
+    "cumulative_pct": 34.9
   },
   {
-    "name": "wt-eu02.net",
-    "observations": 2774,
-    "cumulative_pct": 3.5
+    "name": "scorecardresearch.com",
+    "observations": 93368,
+    "cumulative_pct": 35.8
   },
   {
-    "name": "baidu.com",
-    "observations": 2774,
-    "cumulative_pct": 3.6
+    "name": "twitter.com",
+    "observations": 88034,
+    "cumulative_pct": 36.7
   },
   {
-    "name": "google-analytics.com",
-    "observations": 2773,
-    "cumulative_pct": 3.7
+    "name": "3lift.com",
+    "observations": 86103,
+    "cumulative_pct": 37.6
   },
   {
-    "name": "top100.ru",
-    "observations": 2772,
-    "cumulative_pct": 3.8
+    "name": "yahoo.com",
+    "observations": 85624,
+    "cumulative_pct": 38.5
   },
   {
-    "name": "nr-data.net",
-    "observations": 2772,
-    "cumulative_pct": 3.9
+    "name": "tapad.com",
+    "observations": 80994,
+    "cumulative_pct": 39.3
   },
   {
-    "name": "cxense.com",
-    "observations": 2772,
-    "cumulative_pct": 4.0
+    "name": "yandex.ru",
+    "observations": 78843,
+    "cumulative_pct": 40.1
+  },
+  {
+    "name": "quantserve.com",
+    "observations": 74893,
+    "cumulative_pct": 40.9
+  },
+  {
+    "name": "smartadserver.com",
+    "observations": 74697,
+    "cumulative_pct": 41.6
+  },
+  {
+    "name": "rfihub.com",
+    "observations": 74399,
+    "cumulative_pct": 42.4
   },
   {
     "name": "taboola.com",
-    "observations": 2771,
-    "cumulative_pct": 4.1
+    "observations": 68819,
+    "cumulative_pct": 43.1
   },
   {
-    "name": "reddit.com",
-    "observations": 2770,
-    "cumulative_pct": 4.2
+    "name": "sharethrough.com",
+    "observations": 67134,
+    "cumulative_pct": 43.8
   },
   {
-    "name": "pardot.com",
-    "observations": 2770,
-    "cumulative_pct": 4.3
+    "name": "yandex.com",
+    "observations": 67102,
+    "cumulative_pct": 44.5
   },
   {
-    "name": "liveperson.net",
-    "observations": 2770,
-    "cumulative_pct": 4.3
+    "name": "t.co",
+    "observations": 66474,
+    "cumulative_pct": 45.2
   },
   {
-    "name": "contentsquare.net",
-    "observations": 2770,
-    "cumulative_pct": 4.4
+    "name": "youtube.com",
+    "observations": 63564,
+    "cumulative_pct": 45.8
   },
   {
-    "name": "zoominfo.com",
-    "observations": 2769,
-    "cumulative_pct": 4.5
+    "name": "media.net",
+    "observations": 62528,
+    "cumulative_pct": 46.4
   },
   {
-    "name": "pub.network",
-    "observations": 2769,
-    "cumulative_pct": 4.6
+    "name": "outbrain.com",
+    "observations": 60361,
+    "cumulative_pct": 47.1
+  },
+  {
+    "name": "liadm.com",
+    "observations": 60350,
+    "cumulative_pct": 47.7
+  },
+  {
+    "name": "turn.com",
+    "observations": 60290,
+    "cumulative_pct": 48.3
+  },
+  {
+    "name": "bidr.io",
+    "observations": 57532,
+    "cumulative_pct": 48.9
+  },
+  {
+    "name": "gstatic.com",
+    "observations": 55637,
+    "cumulative_pct": 49.4
+  },
+  {
+    "name": "dotomi.com",
+    "observations": 53808,
+    "cumulative_pct": 50.0
+  },
+  {
+    "name": "a-mo.net",
+    "observations": 52273,
+    "cumulative_pct": 50.5
+  },
+  {
+    "name": "omtrdc.net",
+    "observations": 49504,
+    "cumulative_pct": 51.0
   },
   {
     "name": "postrelease.com",
-    "observations": 2769,
-    "cumulative_pct": 4.7
+    "observations": 48493,
+    "cumulative_pct": 51.5
   },
   {
-    "name": "imrworldwide.com",
-    "observations": 2769,
-    "cumulative_pct": 4.8
+    "name": "tiktok.com",
+    "observations": 48249,
+    "cumulative_pct": 52.0
+  },
+  {
+    "name": "360yield.com",
+    "observations": 48229,
+    "cumulative_pct": 52.5
+  },
+  {
+    "name": "cloudflare.com",
+    "observations": 47936,
+    "cumulative_pct": 53.0
+  },
+  {
+    "name": "hubspot.com",
+    "observations": 46211,
+    "cumulative_pct": 53.5
+  },
+  {
+    "name": "contextweb.com",
+    "observations": 45932,
+    "cumulative_pct": 53.9
+  },
+  {
+    "name": "nr-data.net",
+    "observations": 45926,
+    "cumulative_pct": 54.4
   }
 ]
