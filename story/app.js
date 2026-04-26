@@ -197,7 +197,7 @@ function renderConcentration(data) {
 
     const fig = {
         data: [{
-            x: data.map((_, i) => i + 1),
+            x: data.map((_, i) => `#${i + 1}`),
             y: data.map(d => d.cumulative_pct),
             type: "scatter",
             mode: "lines+markers",
@@ -210,19 +210,24 @@ function renderConcentration(data) {
         }],
         layout: {
             ...PLOT_LAYOUT,
-            xaxis: { ...PLOT_LAYOUT.xaxis, title: "Number of tracker domains (ranked)" },
-            yaxis: { ...PLOT_LAYOUT.yaxis, title: "Cumulative % of tracking", range: [0, 100] },
+            xaxis: {
+                ...PLOT_LAYOUT.xaxis,
+                title: "Tracker domains (ranked by prevalence)",
+                type: "category",
+            },
+            yaxis: { ...PLOT_LAYOUT.yaxis, title: "Cumulative % of tracking", range: [0, 60], ticksuffix: "%" },
             height: 400,
             shapes: [{
-                type: "line", x0: 10, x1: 10, y0: 0, y1: 100,
+                type: "line", x0: "#10", x1: "#10", y0: 0, y1: 60,
+                xref: "x", yref: "y",
                 line: { color: "rgba(167,139,250,0.4)", width: 1, dash: "dash" }
             }],
             annotations: [{
-                x: 10, y: data[9]?.cumulative_pct || 0,
+                x: "#15", y: data[9]?.cumulative_pct || 0,
                 text: `Top 10: ${data[9]?.cumulative_pct}%`,
                 showarrow: true, arrowcolor: "#a78bfa",
                 font: { color: "#a78bfa", size: 11 },
-                ax: 60, ay: -30
+                ax: 50, ay: -30
             }]
         }
     };
