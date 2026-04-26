@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block title %}Trackers — Badger Sett Explorer{% endblock %}
+{% block content %}
+<h1>Trackers</h1>
+<form class="search-bar" method="get">
+    <input type="text" name="q" value="{{ search }}" placeholder="Search tracker domains (e.g. google, facebook)…">
+    <button type="submit">Search</button>
+</form>
+<p class="result-info">{{ "{:,}".format(total) }} trackers found{% if search %} matching "{{ search }}"{% endif %}</p>
+
+<table class="data-table">
+    <thead>
+        <tr>
+            <th>Tracker Domain</th>
+            <th>Sites Tracked</th>
+            <th>Scans Seen In</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for t in trackers %}
+        <tr>
+            <td><a href="/tracker/{{ t.base }}">{{ t.base }}</a></td>
+            <td>{{ "{:,}".format(t.site_count) }}</td>
+            <td>{{ "{:,}".format(t.scan_count) }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<div class="pagination">
+    {% if page > 1 %}
+        <a href="?q={{ search }}&page={{ page - 1 }}">← Prev</a>
+    {% endif %}
+    <span>Page {{ page }} of {{ ((total - 1) // per_page) + 1 }}</span>
+    {% if page * per_page < total %}
+        <a href="?q={{ search }}&page={{ page + 1 }}">Next →</a>
+    {% endif %}
+</div>
+{% endblock %}

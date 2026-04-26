@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block title %}SQL Query — Badger Sett Explorer{% endblock %}
+{% block content %}
+<h1>SQL Query</h1>
+
+<details class="schema-ref" {% if not results and not error %}open{% endif %}>
+    <summary>📋 Database Schema Reference</summary>
+    {% for s in schema %}
+    <pre>{{ s.sql }};</pre>
+    {% endfor %}
+</details>
+
+<form method="post">
+    <textarea class="sql-input" name="sql" placeholder="SELECT t.base, COUNT(DISTINCT tr.site_id) AS sites&#10;FROM tracker t&#10;JOIN tracking tr ON tr.tracker_id = t.id&#10;GROUP BY t.base&#10;ORDER BY sites DESC&#10;LIMIT 20">{{ sql }}</textarea>
+    <div style="margin-top:0.5rem; display:flex; gap:0.5rem; align-items:center;">
+        <button class="btn" type="submit">Run Query</button>
+        <span class="result-info">Only SELECT queries allowed. Results capped at 500 rows.</span>
+    </div>
+</form>
+
+{% if error %}
+<div class="error-msg">{{ error }}</div>
+{% endif %}
+
+{% if results is not none %}
+<p class="result-info">{{ row_count }} row{{ 's' if row_count != 1 }} returned</p>
+<div style="overflow-x:auto;">
+    <table class="data-table">
+        <thead>
+            <tr>
+                {% for col in columns %}
+                <th>{{ col }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in results %}
+            <tr>
+                {% for col in columns %}
+                <td>{{ row[col] }}</td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endif %}
+{% endblock %}

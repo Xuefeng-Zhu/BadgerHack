@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% block title %}{{ site.fqdn }} — Badger Sett Explorer{% endblock %}
+{% block content %}
+<p style="margin-bottom:0.5rem;"><a href="/sites">← All Sites</a></p>
+<h1>{{ site.fqdn }}</h1>
+
+<div class="chart-card" style="margin-bottom:1.5rem;" id="trend-chart"></div>
+
+<div class="chart-grid" style="grid-template-columns: 2fr 1fr;">
+    <div>
+        <h2>Trackers on This Site</h2>
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Tracker</th>
+                    <th>Scans Seen In</th>
+                    <th>Tracking Types</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for t in trackers %}
+                <tr>
+                    <td><a href="/tracker/{{ t.base }}">{{ t.base }}</a></td>
+                    <td>{{ "{:,}".format(t.scan_count) }}</td>
+                    <td>{{ t.types }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <h2>Recent Visit History</h2>
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Status</th>
+                    <th>Final URL</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for v in visits %}
+                <tr>
+                    <td style="white-space:nowrap;">{{ v.start_time[:10] }}</td>
+                    <td>
+                        <span class="badge badge-{{ v.status }}">{{ v.status }}</span>
+                    </td>
+                    <td>{{ v.final_domain }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+const darkLayout = {
+    paper_bgcolor: 'transparent', plot_bgcolor: 'transparent',
+    font: {color: '#8b8fa3', size: 12},
+    xaxis: {gridcolor: '#2a2d3a', zerolinecolor: '#2a2d3a'},
+    yaxis: {gridcolor: '#2a2d3a', zerolinecolor: '#2a2d3a'},
+};
+const fig = JSON.parse('{{ trend_chart | safe }}');
+Object.assign(fig.layout, darkLayout);
+Plotly.newPlot('trend-chart', fig.data, fig.layout, {responsive: true, displayModeBar: false});
+</script>
+{% endblock %}

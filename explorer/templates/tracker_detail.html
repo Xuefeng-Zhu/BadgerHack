@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block title %}{{ tracker.base }} — Badger Sett Explorer{% endblock %}
+{% block content %}
+<p style="margin-bottom:0.5rem;"><a href="/trackers">← All Trackers</a></p>
+<h1>{{ tracker.base }}</h1>
+
+<div class="chart-grid" style="grid-template-columns: 2fr 1fr;">
+    <div class="chart-card" id="trend-chart"></div>
+    <div class="chart-card">
+        <h2>Tracking Methods</h2>
+        <table class="data-table" style="margin-top:0.5rem;">
+            <thead><tr><th>Type</th><th>Count</th></tr></thead>
+            <tbody>
+                {% for t in types %}
+                <tr>
+                    <td>{{ t.ttype }}</td>
+                    <td>{{ "{:,}".format(t.cnt) }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<h2>Top Sites Tracked</h2>
+<table class="data-table">
+    <thead>
+        <tr>
+            <th>Site</th>
+            <th>Scans Seen In</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for s in top_sites %}
+        <tr>
+            <td><a href="/site/{{ s.fqdn }}">{{ s.fqdn }}</a></td>
+            <td>{{ "{:,}".format(s.scan_count) }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
+
+{% block scripts %}
+<script>
+const darkLayout = {
+    paper_bgcolor: 'transparent', plot_bgcolor: 'transparent',
+    font: {color: '#8b8fa3', size: 12},
+    xaxis: {gridcolor: '#2a2d3a', zerolinecolor: '#2a2d3a'},
+    yaxis: {gridcolor: '#2a2d3a', zerolinecolor: '#2a2d3a'},
+};
+const fig = JSON.parse('{{ trend_chart | safe }}');
+Object.assign(fig.layout, darkLayout);
+Plotly.newPlot('trend-chart', fig.data, fig.layout, {responsive: true, displayModeBar: false});
+</script>
+{% endblock %}

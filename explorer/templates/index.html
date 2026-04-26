@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block title %}Dashboard — Badger Sett Explorer{% endblock %}
+{% block content %}
+<div class="stats-grid">
+    <div class="stat-card">
+        <div class="label">Total Scans</div>
+        <div class="value">{{ stats.scans }}</div>
+    </div>
+    <div class="stat-card">
+        <div class="label">Unique Sites</div>
+        <div class="value">{{ stats.sites }}</div>
+    </div>
+    <div class="stat-card">
+        <div class="label">Unique Trackers</div>
+        <div class="value">{{ stats.trackers }}</div>
+    </div>
+    <div class="stat-card">
+        <div class="label">Tracking Records</div>
+        <div class="value">{{ stats.tracking_records }}</div>
+    </div>
+    <div class="stat-card">
+        <div class="label">Date Range</div>
+        <div class="value" style="font-size:1rem;">{{ stats.date_from }} → {{ stats.date_to }}</div>
+    </div>
+</div>
+
+<div class="chart-grid">
+    <div class="chart-card full" id="scan-chart"></div>
+    <div class="chart-card" id="type-chart"></div>
+    <div class="chart-card" id="status-chart"></div>
+    <div class="chart-card full" id="tracker-chart"></div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+const plotConfig = {responsive: true, displayModeBar: false};
+const darkLayout = {
+    paper_bgcolor: 'transparent', plot_bgcolor: 'transparent',
+    font: {color: '#8b8fa3', size: 12},
+    xaxis: {gridcolor: '#2a2d3a', zerolinecolor: '#2a2d3a'},
+    yaxis: {gridcolor: '#2a2d3a', zerolinecolor: '#2a2d3a'},
+};
+
+function renderChart(id, figJson) {
+    const fig = JSON.parse(figJson);
+    Object.assign(fig.layout, darkLayout);
+    if (fig.layout.xaxis) Object.assign(fig.layout.xaxis, darkLayout.xaxis);
+    if (fig.layout.yaxis) Object.assign(fig.layout.yaxis, darkLayout.yaxis);
+    Plotly.newPlot(id, fig.data, fig.layout, plotConfig);
+}
+
+renderChart('scan-chart', '{{ scan_chart | safe }}');
+renderChart('tracker-chart', '{{ tracker_chart | safe }}');
+renderChart('type-chart', '{{ type_chart | safe }}');
+renderChart('status-chart', '{{ status_chart | safe }}');
+</script>
+{% endblock %}
