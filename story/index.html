@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who's Watching the Web? — EFF Tracker Data Story</title>
+    <script src="https://cdn.plot.ly/plotly-2.35.0.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ═══ HERO ═══ -->
+<section class="hero">
+    <div class="hero-inner">
+        <p class="hero-eyebrow">An exploration of EFF's Privacy Badger dataset</p>
+        <h1>Who's Watching<br>the Web?</h1>
+        <p class="hero-sub">Every time you visit a website, invisible trackers follow you.
+            We analyzed <strong id="stat-scans">1,168</strong> web scans spanning
+            <strong id="stat-years">6 years</strong> to show you what's really happening.</p>
+        <div class="scroll-hint">↓ Scroll to explore</div>
+    </div>
+</section>
+
+<!-- ═══ CHAPTER 1: SCALE ═══ -->
+<section class="chapter" id="ch-scale">
+    <div class="narrative">
+        <h2>The Scale of Tracking</h2>
+        <p>Over half of the top websites contain third-party trackers. Among those sites,
+            the average one loads trackers from
+            <strong class="highlight" id="avg-now">—</strong> different companies.</p>
+        <p>That means every page you visit is potentially reporting your activity to
+            nearly ten separate organizations — advertising networks, data brokers,
+            social media platforms — all building a profile of your interests.</p>
+        <p>Google alone appears on <strong id="google-pct">—%</strong> of tracked websites,
+            giving it an unparalleled view of web browsing activity.</p>
+    </div>
+    <div class="chart-container">
+        <div id="chart-avg-over-time"></div>
+    </div>
+</section>
+
+<!-- ═══ CHAPTER 2: WHO'S TRACKING ═══ -->
+<section class="chapter" id="ch-who">
+    <div class="narrative">
+        <h2>The Usual Suspects</h2>
+        <p>A small number of companies dominate web tracking. Google alone — through
+            properties like <em>google.com</em>, <em>doubleclick.net</em>, and
+            <em>googlesyndication.com</em> — appears on more websites than any other tracker.</p>
+        <p>Here are the 25 most prevalent trackers observed across
+            <strong id="stat-sites">—</strong> websites in the past year.</p>
+    </div>
+    <div class="chart-container">
+        <div id="chart-top-trackers"></div>
+    </div>
+</section>
+
+<!-- ═══ CHAPTER 3: CONCENTRATION ═══ -->
+<section class="chapter" id="ch-concentration">
+    <div class="narrative">
+        <h2>A Handful See Everything</h2>
+        <p>Web tracking is remarkably concentrated. Just <strong>10 tracker domains</strong>
+            account for <strong id="top10-pct">—%</strong> of all tracking observations.
+            The top 50 cover <strong id="top50-pct">—%</strong>.</p>
+        <p>This means a tiny number of companies have the ability to observe a
+            significant portion of everyone's browsing activity across the web.</p>
+    </div>
+    <div class="chart-container">
+        <div id="chart-concentration"></div>
+    </div>
+</section>
+
+<!-- ═══ CHAPTER 4: HOW THEY TRACK ═══ -->
+<section class="chapter" id="ch-how">
+    <div class="narrative">
+        <h2>How They Track You</h2>
+        <p>Trackers use different techniques to follow you across the web:</p>
+        <div class="method-cards" id="method-cards"></div>
+        <p class="note">Many tracking observations don't have a classified type — this
+            reflects the evolving nature of tracking detection, not the absence of tracking.</p>
+    </div>
+    <div class="chart-container">
+        <div id="chart-types"></div>
+    </div>
+</section>
+
+<!-- ═══ CHAPTER 5: TRENDS ═══ -->
+<section class="chapter" id="ch-trends">
+    <div class="narrative">
+        <h2>The Shifting Landscape</h2>
+        <p>Tracking isn't static. Some trackers grow their reach while others decline.
+            Browser privacy features, regulations like GDPR, and industry changes all
+            shape the ecosystem.</p>
+        <p>This chart shows how the top 10 trackers' prevalence has changed month by month.</p>
+    </div>
+    <div class="chart-container wide">
+        <div id="chart-trends"></div>
+    </div>
+</section>
+
+<!-- ═══ CHAPTER 6: WORST SITES ═══ -->
+<section class="chapter" id="ch-sites">
+    <div class="narrative">
+        <h2>The Most-Tracked Sites</h2>
+        <p>Some websites load dozens of trackers on a single page visit. News sites and
+            media outlets tend to have the most, driven by advertising networks competing
+            for your attention — and your data.</p>
+    </div>
+    <div class="chart-container">
+        <div id="chart-most-tracked"></div>
+    </div>
+</section>
+
+<!-- ═══ INTERACTIVE: SITE CHECKER ═══ -->
+<section class="interactive" id="ch-check">
+    <div class="interactive-inner">
+        <h2>Check Any Website</h2>
+        <p>Curious about a site you visit? Search for it below to see what trackers
+            were found and how tracking has changed over time.</p>
+        <div class="site-search">
+            <input type="text" id="site-input" placeholder="Type a domain (e.g. nytimes.com, amazon.com)…"
+                   autocomplete="off" spellcheck="false">
+            <div id="site-suggestions" class="suggestions"></div>
+        </div>
+        <div id="site-result" class="site-result hidden">
+            <div class="result-header">
+                <div class="result-grade" id="result-grade"></div>
+                <div>
+                    <div class="result-domain" id="result-domain"></div>
+                    <div class="result-grade-label" id="result-grade-label"></div>
+                </div>
+            </div>
+            <div class="result-stats">
+                <div class="result-stat">
+                    <div class="stat-value" id="result-count">—</div>
+                    <div class="stat-label">Trackers Found</div>
+                </div>
+                <div class="result-stat">
+                    <div class="stat-value" id="result-types">—</div>
+                    <div class="stat-label">Tracking Methods</div>
+                </div>
+                <div class="result-stat">
+                    <div class="stat-value" id="result-percentile">—</div>
+                    <div class="stat-label">Percentile</div>
+                </div>
+            </div>
+            <div id="result-trend-chart" class="result-trend-chart"></div>
+            <div class="result-trackers">
+                <h3 id="result-trackers-heading">Trackers detected</h3>
+                <div class="tracker-list" id="result-tracker-list"></div>
+            </div>
+            <p class="result-note">Based on the most recent Privacy Badger scan with blocking
+                disabled, showing the full tracking landscape. Actual tracking may vary
+                depending on your browser, location, and privacy settings.</p>
+        </div>
+        <div id="site-no-result" class="no-result hidden"></div>
+    </div>
+</section>
+
+<!-- ═══ DATA TRANSPARENCY ═══ -->
+<section class="chapter transparency" id="ch-transparency">
+    <div class="narrative">
+        <h2>About This Data</h2>
+        <p>Transparency matters. Here's what you should know about this dataset:</p>
+        <ul class="caveats">
+            <li><strong>Source:</strong> All data comes from EFF's
+                <a href="https://github.com/EFForg/badger-sett" target="_blank">Badger Sett</a>
+                project — automated scans of top websites using Privacy Badger.</li>
+            <li><strong>Detection method:</strong> Privacy Badger uses heuristic-based
+                detection. It identifies tracking by observing third-party domains that
+                appear across multiple first-party sites. This means some trackers may be
+                missed, and some non-tracking third parties may be flagged.</li>
+            <li><strong>Scan scope:</strong> Scans cover the top ~5,000–8,000 websites
+                from the Tranco list. This represents popular sites but not the entire web.</li>
+            <li><strong>Browser variation:</strong> Results vary by browser (Firefox, Chrome, Edge)
+                due to different built-in privacy protections.</li>
+            <li><strong>Point-in-time snapshots:</strong> Each scan captures a moment.
+                Websites change their tracker configurations frequently.</li>
+            <li><strong>Not all tracking is equal:</strong> Some third-party requests are
+                functional (fonts, CDNs). Privacy Badger's heuristics aim to distinguish
+                tracking from non-tracking, but the line isn't always clear.</li>
+        </ul>
+    </div>
+</section>
+
+<!-- ═══ CTA ═══ -->
+<section class="cta">
+    <div class="cta-inner">
+        <h2>Take Back Your Privacy</h2>
+        <p>You don't have to accept being tracked. Install Privacy Badger — it's free,
+            open source, and blocks the trackers shown in this report.</p>
+        <a href="https://privacybadger.org" target="_blank" class="cta-button">
+            Get Privacy Badger →
+        </a>
+        <p class="cta-sub">
+            Data from <a href="https://github.com/EFForg/badger-sett">Badger Sett</a> by the
+            <a href="https://eff.org">Electronic Frontier Foundation</a>.
+        </p>
+    </div>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>

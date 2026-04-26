@@ -1,0 +1,17 @@
+[
+  {
+    "browser": "chrome",
+    "scans": 546,
+    "success_rate": 74.1
+  },
+  {
+    "browser": "edge",
+    "scans": 148,
+    "success_rate": 80.3
+  },
+  {
+    "browser": "firefox",
+    "scans": 474,
+    "success_rate": 77.5
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "total_scans": 1168,
+  "total_sites": 30919,
+  "total_trackers": 19980,
+  "total_tracking": 12796173,
+  "date_from": "2020-09-22",
+  "date_to": "2026-04-25",
+  "avg_trackers_latest": 9.5,
+  "pct_with_trackers_latest": 55,
+  "avg_trackers_earliest": 10.7,
+  "pct_with_trackers_earliest": 67,
+  "earliest_year": "2024",
+  "google_pct": 58
+}
