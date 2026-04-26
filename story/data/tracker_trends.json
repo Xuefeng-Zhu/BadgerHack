@@ -1,2842 +1,1052 @@
 [
   {
-    "month": "2020-09",
-    "name": "adnxs.com",
-    "sites": 4
-  },
-  {
-    "month": "2020-09",
-    "name": "adsrvr.org",
-    "sites": 4
-  },
-  {
-    "month": "2020-09",
-    "name": "criteo.com",
-    "sites": 3
-  },
-  {
-    "month": "2020-09",
-    "name": "doubleclick.net",
-    "sites": 4
-  },
-  {
-    "month": "2020-09",
-    "name": "facebook.com",
-    "sites": 3
-  },
-  {
-    "month": "2020-09",
-    "name": "google.com",
-    "sites": 3
-  },
-  {
-    "month": "2020-09",
-    "name": "id5-sync.com",
-    "sites": 3
-  },
-  {
-    "month": "2020-09",
-    "name": "linkedin.com",
-    "sites": 3
-  },
-  {
-    "month": "2020-09",
-    "name": "rubiconproject.com",
-    "sites": 5
-  },
-  {
-    "month": "2020-10",
-    "name": "adnxs.com",
-    "sites": 6
-  },
-  {
-    "month": "2020-10",
-    "name": "adsrvr.org",
-    "sites": 6
-  },
-  {
-    "month": "2020-10",
-    "name": "criteo.com",
-    "sites": 6
-  },
-  {
-    "month": "2020-10",
-    "name": "doubleclick.net",
-    "sites": 4
-  },
-  {
-    "month": "2020-10",
-    "name": "facebook.com",
-    "sites": 2
-  },
-  {
-    "month": "2020-10",
-    "name": "google.com",
-    "sites": 6
-  },
-  {
-    "month": "2020-10",
-    "name": "id5-sync.com",
-    "sites": 6
-  },
-  {
-    "month": "2020-10",
-    "name": "linkedin.com",
-    "sites": 3
-  },
-  {
-    "month": "2020-10",
-    "name": "rubiconproject.com",
-    "sites": 6
-  },
-  {
-    "month": "2020-11",
-    "name": "adnxs.com",
-    "sites": 4
-  },
-  {
-    "month": "2020-11",
-    "name": "adsrvr.org",
-    "sites": 4
-  },
-  {
-    "month": "2020-11",
-    "name": "criteo.com",
-    "sites": 6
-  },
-  {
-    "month": "2020-11",
-    "name": "doubleclick.net",
-    "sites": 3
-  },
-  {
-    "month": "2020-11",
-    "name": "facebook.com",
-    "sites": 2
-  },
-  {
-    "month": "2020-11",
-    "name": "google.com",
-    "sites": 6
-  },
-  {
-    "month": "2020-11",
-    "name": "id5-sync.com",
-    "sites": 4
-  },
-  {
-    "month": "2020-11",
-    "name": "linkedin.com",
-    "sites": 2
-  },
-  {
-    "month": "2020-11",
-    "name": "rubiconproject.com",
-    "sites": 6
-  },
-  {
-    "month": "2020-12",
-    "name": "adnxs.com",
-    "sites": 6
-  },
-  {
-    "month": "2020-12",
-    "name": "adsrvr.org",
-    "sites": 5
-  },
-  {
-    "month": "2020-12",
-    "name": "criteo.com",
-    "sites": 7
-  },
-  {
-    "month": "2020-12",
-    "name": "doubleclick.net",
-    "sites": 3
-  },
-  {
-    "month": "2020-12",
-    "name": "facebook.com",
-    "sites": 2
-  },
-  {
-    "month": "2020-12",
-    "name": "google.com",
-    "sites": 4
-  },
-  {
-    "month": "2020-12",
-    "name": "id5-sync.com",
-    "sites": 4
-  },
-  {
-    "month": "2020-12",
-    "name": "linkedin.com",
-    "sites": 3
-  },
-  {
-    "month": "2020-12",
-    "name": "rubiconproject.com",
-    "sites": 4
-  },
-  {
-    "month": "2021-01",
-    "name": "adnxs.com",
-    "sites": 5
-  },
-  {
-    "month": "2021-01",
-    "name": "adsrvr.org",
-    "sites": 4
-  },
-  {
-    "month": "2021-01",
-    "name": "criteo.com",
-    "sites": 9
-  },
-  {
-    "month": "2021-01",
-    "name": "doubleclick.net",
-    "sites": 4
-  },
-  {
-    "month": "2021-01",
-    "name": "facebook.com",
-    "sites": 2
-  },
-  {
-    "month": "2021-01",
-    "name": "google.com",
-    "sites": 5
-  },
-  {
-    "month": "2021-01",
-    "name": "id5-sync.com",
-    "sites": 6
-  },
-  {
-    "month": "2021-01",
-    "name": "linkedin.com",
-    "sites": 3
-  },
-  {
-    "month": "2021-01",
-    "name": "rubiconproject.com",
-    "sites": 4
-  },
-  {
-    "month": "2021-02",
-    "name": "adnxs.com",
-    "sites": 23
-  },
-  {
-    "month": "2021-02",
-    "name": "adsrvr.org",
-    "sites": 24
-  },
-  {
-    "month": "2021-02",
-    "name": "criteo.com",
-    "sites": 26
-  },
-  {
-    "month": "2021-02",
-    "name": "doubleclick.net",
-    "sites": 23
-  },
-  {
-    "month": "2021-02",
-    "name": "facebook.com",
-    "sites": 21
-  },
-  {
-    "month": "2021-02",
-    "name": "google.com",
-    "sites": 27
-  },
-  {
-    "month": "2021-02",
-    "name": "id5-sync.com",
-    "sites": 22
-  },
-  {
-    "month": "2021-02",
-    "name": "linkedin.com",
-    "sites": 20
-  },
-  {
-    "month": "2021-02",
-    "name": "onetrust.com",
-    "sites": 6
-  },
-  {
-    "month": "2021-02",
-    "name": "rubiconproject.com",
-    "sites": 23
-  },
-  {
-    "month": "2021-03",
-    "name": "adnxs.com",
-    "sites": 53
-  },
-  {
-    "month": "2021-03",
-    "name": "adsrvr.org",
-    "sites": 54
-  },
-  {
-    "month": "2021-03",
-    "name": "criteo.com",
-    "sites": 48
-  },
-  {
-    "month": "2021-03",
-    "name": "doubleclick.net",
-    "sites": 54
-  },
-  {
-    "month": "2021-03",
-    "name": "facebook.com",
-    "sites": 53
-  },
-  {
-    "month": "2021-03",
-    "name": "google.com",
-    "sites": 56
-  },
-  {
-    "month": "2021-03",
-    "name": "id5-sync.com",
-    "sites": 45
-  },
-  {
-    "month": "2021-03",
-    "name": "linkedin.com",
-    "sites": 50
-  },
-  {
-    "month": "2021-03",
-    "name": "onetrust.com",
-    "sites": 12
-  },
-  {
-    "month": "2021-03",
-    "name": "rubiconproject.com",
-    "sites": 52
-  },
-  {
-    "month": "2021-04",
-    "name": "adnxs.com",
-    "sites": 65
-  },
-  {
-    "month": "2021-04",
-    "name": "adsrvr.org",
-    "sites": 65
-  },
-  {
-    "month": "2021-04",
-    "name": "criteo.com",
-    "sites": 59
-  },
-  {
-    "month": "2021-04",
-    "name": "doubleclick.net",
-    "sites": 65
-  },
-  {
-    "month": "2021-04",
-    "name": "facebook.com",
-    "sites": 65
-  },
-  {
-    "month": "2021-04",
-    "name": "google.com",
-    "sites": 71
-  },
-  {
-    "month": "2021-04",
-    "name": "id5-sync.com",
-    "sites": 54
-  },
-  {
-    "month": "2021-04",
-    "name": "linkedin.com",
-    "sites": 63
-  },
-  {
-    "month": "2021-04",
-    "name": "onetrust.com",
-    "sites": 20
-  },
-  {
-    "month": "2021-04",
-    "name": "rubiconproject.com",
-    "sites": 63
-  },
-  {
-    "month": "2021-05",
-    "name": "adnxs.com",
-    "sites": 90
-  },
-  {
-    "month": "2021-05",
-    "name": "adsrvr.org",
-    "sites": 86
-  },
-  {
-    "month": "2021-05",
-    "name": "criteo.com",
-    "sites": 89
-  },
-  {
-    "month": "2021-05",
-    "name": "doubleclick.net",
-    "sites": 92
-  },
-  {
-    "month": "2021-05",
-    "name": "facebook.com",
-    "sites": 90
-  },
-  {
-    "month": "2021-05",
-    "name": "google.com",
-    "sites": 91
-  },
-  {
-    "month": "2021-05",
-    "name": "id5-sync.com",
-    "sites": 68
-  },
-  {
-    "month": "2021-05",
-    "name": "linkedin.com",
-    "sites": 90
-  },
-  {
-    "month": "2021-05",
-    "name": "rubiconproject.com",
-    "sites": 85
-  },
-  {
-    "month": "2021-06",
-    "name": "adnxs.com",
-    "sites": 12
-  },
-  {
-    "month": "2021-06",
-    "name": "adsrvr.org",
-    "sites": 12
-  },
-  {
-    "month": "2021-06",
-    "name": "criteo.com",
-    "sites": 12
-  },
-  {
-    "month": "2021-06",
-    "name": "doubleclick.net",
-    "sites": 12
-  },
-  {
-    "month": "2021-06",
-    "name": "facebook.com",
-    "sites": 12
-  },
-  {
-    "month": "2021-06",
-    "name": "google.com",
-    "sites": 14
-  },
-  {
-    "month": "2021-06",
-    "name": "id5-sync.com",
-    "sites": 11
-  },
-  {
-    "month": "2021-06",
-    "name": "linkedin.com",
-    "sites": 12
-  },
-  {
-    "month": "2021-06",
-    "name": "onetrust.com",
-    "sites": 3
-  },
-  {
-    "month": "2021-06",
-    "name": "rubiconproject.com",
-    "sites": 12
-  },
-  {
-    "month": "2021-07",
-    "name": "adnxs.com",
-    "sites": 12
-  },
-  {
-    "month": "2021-07",
-    "name": "adsrvr.org",
-    "sites": 12
-  },
-  {
-    "month": "2021-07",
-    "name": "criteo.com",
-    "sites": 12
-  },
-  {
-    "month": "2021-07",
-    "name": "doubleclick.net",
-    "sites": 12
-  },
-  {
-    "month": "2021-07",
-    "name": "facebook.com",
-    "sites": 12
-  },
-  {
-    "month": "2021-07",
-    "name": "google.com",
-    "sites": 12
-  },
-  {
-    "month": "2021-07",
-    "name": "id5-sync.com",
-    "sites": 11
-  },
-  {
-    "month": "2021-07",
-    "name": "linkedin.com",
-    "sites": 12
-  },
-  {
-    "month": "2021-07",
-    "name": "rubiconproject.com",
-    "sites": 12
-  },
-  {
-    "month": "2021-08",
-    "name": "adnxs.com",
-    "sites": 40
-  },
-  {
-    "month": "2021-08",
-    "name": "adsrvr.org",
-    "sites": 41
-  },
-  {
-    "month": "2021-08",
-    "name": "criteo.com",
-    "sites": 40
-  },
-  {
-    "month": "2021-08",
-    "name": "doubleclick.net",
-    "sites": 42
-  },
-  {
-    "month": "2021-08",
-    "name": "facebook.com",
-    "sites": 42
-  },
-  {
-    "month": "2021-08",
-    "name": "google.com",
-    "sites": 46
-  },
-  {
-    "month": "2021-08",
-    "name": "id5-sync.com",
-    "sites": 38
-  },
-  {
-    "month": "2021-08",
-    "name": "linkedin.com",
-    "sites": 39
-  },
-  {
-    "month": "2021-08",
-    "name": "onetrust.com",
-    "sites": 24
-  },
-  {
-    "month": "2021-08",
-    "name": "rubiconproject.com",
-    "sites": 40
-  },
-  {
-    "month": "2021-09",
-    "name": "adnxs.com",
-    "sites": 65
-  },
-  {
-    "month": "2021-09",
-    "name": "adsrvr.org",
-    "sites": 66
-  },
-  {
-    "month": "2021-09",
-    "name": "criteo.com",
-    "sites": 62
-  },
-  {
-    "month": "2021-09",
-    "name": "doubleclick.net",
-    "sites": 66
-  },
-  {
-    "month": "2021-09",
-    "name": "facebook.com",
-    "sites": 65
-  },
-  {
-    "month": "2021-09",
-    "name": "google.com",
-    "sites": 75
-  },
-  {
-    "month": "2021-09",
-    "name": "id5-sync.com",
-    "sites": 57
-  },
-  {
-    "month": "2021-09",
-    "name": "linkedin.com",
-    "sites": 63
-  },
-  {
-    "month": "2021-09",
-    "name": "onetrust.com",
-    "sites": 40
-  },
-  {
-    "month": "2021-09",
-    "name": "rubiconproject.com",
-    "sites": 64
-  },
-  {
-    "month": "2021-10",
-    "name": "adnxs.com",
-    "sites": 56
-  },
-  {
-    "month": "2021-10",
-    "name": "adsrvr.org",
-    "sites": 56
-  },
-  {
-    "month": "2021-10",
-    "name": "criteo.com",
-    "sites": 51
-  },
-  {
-    "month": "2021-10",
-    "name": "doubleclick.net",
-    "sites": 57
-  },
-  {
-    "month": "2021-10",
-    "name": "facebook.com",
-    "sites": 57
-  },
-  {
-    "month": "2021-10",
-    "name": "google.com",
-    "sites": 63
-  },
-  {
-    "month": "2021-10",
-    "name": "id5-sync.com",
-    "sites": 47
-  },
-  {
-    "month": "2021-10",
-    "name": "linkedin.com",
-    "sites": 56
-  },
-  {
-    "month": "2021-10",
-    "name": "onetrust.com",
-    "sites": 25
-  },
-  {
-    "month": "2021-10",
-    "name": "rubiconproject.com",
-    "sites": 53
-  },
-  {
-    "month": "2021-11",
-    "name": "adnxs.com",
-    "sites": 40
-  },
-  {
-    "month": "2021-11",
-    "name": "adsrvr.org",
-    "sites": 42
-  },
-  {
-    "month": "2021-11",
-    "name": "criteo.com",
-    "sites": 41
-  },
-  {
-    "month": "2021-11",
-    "name": "doubleclick.net",
-    "sites": 41
-  },
-  {
-    "month": "2021-11",
-    "name": "facebook.com",
-    "sites": 42
-  },
-  {
-    "month": "2021-11",
-    "name": "google.com",
-    "sites": 51
-  },
-  {
-    "month": "2021-11",
-    "name": "id5-sync.com",
-    "sites": 34
-  },
-  {
-    "month": "2021-11",
-    "name": "linkedin.com",
-    "sites": 41
-  },
-  {
-    "month": "2021-11",
-    "name": "onetrust.com",
-    "sites": 26
-  },
-  {
-    "month": "2021-11",
-    "name": "rubiconproject.com",
-    "sites": 41
-  },
-  {
-    "month": "2021-12",
-    "name": "adnxs.com",
-    "sites": 72
-  },
-  {
-    "month": "2021-12",
-    "name": "adsrvr.org",
-    "sites": 68
-  },
-  {
-    "month": "2021-12",
-    "name": "criteo.com",
-    "sites": 68
-  },
-  {
-    "month": "2021-12",
-    "name": "doubleclick.net",
-    "sites": 78
-  },
-  {
-    "month": "2021-12",
-    "name": "facebook.com",
-    "sites": 77
-  },
-  {
-    "month": "2021-12",
-    "name": "google.com",
-    "sites": 87
-  },
-  {
-    "month": "2021-12",
-    "name": "id5-sync.com",
-    "sites": 63
-  },
-  {
-    "month": "2021-12",
-    "name": "linkedin.com",
-    "sites": 68
-  },
-  {
-    "month": "2021-12",
-    "name": "onetrust.com",
-    "sites": 38
-  },
-  {
-    "month": "2021-12",
-    "name": "rubiconproject.com",
-    "sites": 68
-  },
-  {
-    "month": "2022-01",
-    "name": "adnxs.com",
-    "sites": 17
-  },
-  {
-    "month": "2022-01",
-    "name": "adsrvr.org",
-    "sites": 16
-  },
-  {
-    "month": "2022-01",
-    "name": "criteo.com",
-    "sites": 18
-  },
-  {
-    "month": "2022-01",
-    "name": "doubleclick.net",
-    "sites": 18
-  },
-  {
-    "month": "2022-01",
-    "name": "facebook.com",
-    "sites": 18
-  },
-  {
-    "month": "2022-01",
-    "name": "google.com",
-    "sites": 23
-  },
-  {
-    "month": "2022-01",
-    "name": "id5-sync.com",
-    "sites": 17
-  },
-  {
-    "month": "2022-01",
-    "name": "linkedin.com",
-    "sites": 17
-  },
-  {
-    "month": "2022-01",
-    "name": "onetrust.com",
-    "sites": 18
-  },
-  {
-    "month": "2022-01",
-    "name": "rubiconproject.com",
-    "sites": 18
-  },
-  {
-    "month": "2022-05",
-    "name": "adnxs.com",
-    "sites": 18
-  },
-  {
-    "month": "2022-05",
-    "name": "adsrvr.org",
-    "sites": 18
-  },
-  {
-    "month": "2022-05",
-    "name": "criteo.com",
-    "sites": 18
-  },
-  {
-    "month": "2022-05",
-    "name": "doubleclick.net",
-    "sites": 18
-  },
-  {
-    "month": "2022-05",
-    "name": "facebook.com",
-    "sites": 18
-  },
-  {
-    "month": "2022-05",
-    "name": "google.com",
-    "sites": 19
-  },
-  {
-    "month": "2022-05",
-    "name": "id5-sync.com",
-    "sites": 18
-  },
-  {
-    "month": "2022-05",
-    "name": "linkedin.com",
-    "sites": 17
-  },
-  {
-    "month": "2022-05",
-    "name": "onetrust.com",
-    "sites": 3
-  },
-  {
-    "month": "2022-05",
-    "name": "rubiconproject.com",
-    "sites": 18
-  },
-  {
-    "month": "2022-06",
-    "name": "adnxs.com",
-    "sites": 3
-  },
-  {
-    "month": "2022-06",
-    "name": "adsrvr.org",
-    "sites": 3
-  },
-  {
-    "month": "2022-06",
-    "name": "criteo.com",
-    "sites": 3
-  },
-  {
-    "month": "2022-06",
-    "name": "doubleclick.net",
-    "sites": 3
-  },
-  {
-    "month": "2022-06",
-    "name": "facebook.com",
-    "sites": 3
-  },
-  {
-    "month": "2022-06",
-    "name": "google.com",
-    "sites": 3
-  },
-  {
-    "month": "2022-06",
-    "name": "id5-sync.com",
-    "sites": 3
-  },
-  {
-    "month": "2022-06",
-    "name": "linkedin.com",
-    "sites": 3
-  },
-  {
-    "month": "2022-06",
-    "name": "rubiconproject.com",
-    "sites": 3
-  },
-  {
-    "month": "2022-12",
-    "name": "adnxs.com",
-    "sites": 30
-  },
-  {
-    "month": "2022-12",
-    "name": "adsrvr.org",
-    "sites": 30
-  },
-  {
-    "month": "2022-12",
-    "name": "criteo.com",
-    "sites": 26
-  },
-  {
-    "month": "2022-12",
-    "name": "doubleclick.net",
-    "sites": 30
-  },
-  {
-    "month": "2022-12",
-    "name": "facebook.com",
-    "sites": 30
-  },
-  {
-    "month": "2022-12",
-    "name": "google.com",
-    "sites": 41
-  },
-  {
-    "month": "2022-12",
-    "name": "id5-sync.com",
-    "sites": 24
-  },
-  {
-    "month": "2022-12",
-    "name": "linkedin.com",
-    "sites": 30
-  },
-  {
-    "month": "2022-12",
-    "name": "rubiconproject.com",
-    "sites": 30
-  },
-  {
-    "month": "2023-01",
-    "name": "adnxs.com",
-    "sites": 49
-  },
-  {
-    "month": "2023-01",
-    "name": "adsrvr.org",
-    "sites": 49
-  },
-  {
-    "month": "2023-01",
-    "name": "criteo.com",
-    "sites": 49
-  },
-  {
-    "month": "2023-01",
-    "name": "doubleclick.net",
-    "sites": 50
-  },
-  {
-    "month": "2023-01",
-    "name": "facebook.com",
-    "sites": 54
-  },
-  {
-    "month": "2023-01",
-    "name": "google.com",
-    "sites": 67
-  },
-  {
-    "month": "2023-01",
-    "name": "id5-sync.com",
-    "sites": 45
-  },
-  {
-    "month": "2023-01",
-    "name": "linkedin.com",
-    "sites": 49
-  },
-  {
-    "month": "2023-01",
-    "name": "rubiconproject.com",
-    "sites": 48
-  },
-  {
-    "month": "2023-04",
-    "name": "adnxs.com",
-    "sites": 29
-  },
-  {
-    "month": "2023-04",
-    "name": "adsrvr.org",
-    "sites": 30
-  },
-  {
-    "month": "2023-04",
-    "name": "criteo.com",
-    "sites": 29
-  },
-  {
-    "month": "2023-04",
-    "name": "doubleclick.net",
-    "sites": 31
-  },
-  {
-    "month": "2023-04",
-    "name": "facebook.com",
-    "sites": 30
-  },
-  {
-    "month": "2023-04",
-    "name": "google.com",
-    "sites": 36
-  },
-  {
-    "month": "2023-04",
-    "name": "id5-sync.com",
-    "sites": 24
-  },
-  {
-    "month": "2023-04",
-    "name": "linkedin.com",
-    "sites": 30
-  },
-  {
-    "month": "2023-04",
-    "name": "rubiconproject.com",
-    "sites": 29
-  },
-  {
-    "month": "2023-05",
-    "name": "adnxs.com",
-    "sites": 38
-  },
-  {
-    "month": "2023-05",
-    "name": "adsrvr.org",
-    "sites": 38
-  },
-  {
-    "month": "2023-05",
-    "name": "criteo.com",
-    "sites": 37
-  },
-  {
-    "month": "2023-05",
-    "name": "doubleclick.net",
-    "sites": 40
-  },
-  {
-    "month": "2023-05",
-    "name": "facebook.com",
-    "sites": 37
-  },
-  {
-    "month": "2023-05",
-    "name": "google.com",
-    "sites": 41
-  },
-  {
-    "month": "2023-05",
-    "name": "id5-sync.com",
-    "sites": 30
-  },
-  {
-    "month": "2023-05",
-    "name": "linkedin.com",
-    "sites": 37
-  },
-  {
-    "month": "2023-05",
-    "name": "rubiconproject.com",
-    "sites": 35
-  },
-  {
-    "month": "2023-06",
-    "name": "adnxs.com",
-    "sites": 52
-  },
-  {
-    "month": "2023-06",
-    "name": "adsrvr.org",
-    "sites": 55
-  },
-  {
-    "month": "2023-06",
-    "name": "criteo.com",
-    "sites": 53
-  },
-  {
-    "month": "2023-06",
-    "name": "doubleclick.net",
-    "sites": 59
-  },
-  {
-    "month": "2023-06",
-    "name": "facebook.com",
-    "sites": 58
-  },
-  {
-    "month": "2023-06",
-    "name": "google.com",
-    "sites": 56
-  },
-  {
-    "month": "2023-06",
-    "name": "id5-sync.com",
-    "sites": 36
-  },
-  {
-    "month": "2023-06",
-    "name": "linkedin.com",
-    "sites": 53
-  },
-  {
-    "month": "2023-06",
-    "name": "onetrust.com",
-    "sites": 85
-  },
-  {
-    "month": "2023-06",
-    "name": "rubiconproject.com",
-    "sites": 53
-  },
-  {
-    "month": "2023-07",
-    "name": "adnxs.com",
-    "sites": 49
-  },
-  {
-    "month": "2023-07",
-    "name": "adsrvr.org",
-    "sites": 50
-  },
-  {
-    "month": "2023-07",
-    "name": "criteo.com",
-    "sites": 49
-  },
-  {
-    "month": "2023-07",
-    "name": "doubleclick.net",
-    "sites": 50
-  },
-  {
-    "month": "2023-07",
-    "name": "facebook.com",
-    "sites": 50
-  },
-  {
-    "month": "2023-07",
-    "name": "google.com",
-    "sites": 51
-  },
-  {
-    "month": "2023-07",
-    "name": "id5-sync.com",
-    "sites": 38
-  },
-  {
-    "month": "2023-07",
-    "name": "linkedin.com",
-    "sites": 48
-  },
-  {
-    "month": "2023-07",
-    "name": "onetrust.com",
-    "sites": 51
-  },
-  {
-    "month": "2023-07",
-    "name": "rubiconproject.com",
-    "sites": 48
-  },
-  {
-    "month": "2023-08",
-    "name": "adnxs.com",
-    "sites": 67
-  },
-  {
-    "month": "2023-08",
-    "name": "adsrvr.org",
-    "sites": 68
-  },
-  {
-    "month": "2023-08",
-    "name": "criteo.com",
-    "sites": 67
-  },
-  {
-    "month": "2023-08",
-    "name": "doubleclick.net",
-    "sites": 72
-  },
-  {
-    "month": "2023-08",
-    "name": "facebook.com",
-    "sites": 68
-  },
-  {
-    "month": "2023-08",
-    "name": "google.com",
-    "sites": 69
-  },
-  {
-    "month": "2023-08",
-    "name": "id5-sync.com",
-    "sites": 59
-  },
-  {
-    "month": "2023-08",
-    "name": "linkedin.com",
-    "sites": 67
-  },
-  {
-    "month": "2023-08",
-    "name": "onetrust.com",
-    "sites": 71
-  },
-  {
-    "month": "2023-08",
-    "name": "rubiconproject.com",
-    "sites": 71
-  },
-  {
-    "month": "2023-09",
-    "name": "adnxs.com",
-    "sites": 79
-  },
-  {
-    "month": "2023-09",
-    "name": "adsrvr.org",
-    "sites": 78
-  },
-  {
-    "month": "2023-09",
-    "name": "criteo.com",
-    "sites": 72
-  },
-  {
-    "month": "2023-09",
-    "name": "doubleclick.net",
-    "sites": 84
-  },
-  {
-    "month": "2023-09",
-    "name": "facebook.com",
-    "sites": 82
-  },
-  {
-    "month": "2023-09",
-    "name": "google.com",
-    "sites": 84
-  },
-  {
-    "month": "2023-09",
-    "name": "id5-sync.com",
-    "sites": 56
-  },
-  {
-    "month": "2023-09",
-    "name": "linkedin.com",
-    "sites": 77
-  },
-  {
-    "month": "2023-09",
-    "name": "onetrust.com",
-    "sites": 78
-  },
-  {
-    "month": "2023-09",
-    "name": "rubiconproject.com",
-    "sites": 76
-  },
-  {
-    "month": "2023-10",
-    "name": "adnxs.com",
-    "sites": 75
-  },
-  {
-    "month": "2023-10",
-    "name": "adsrvr.org",
-    "sites": 76
-  },
-  {
-    "month": "2023-10",
-    "name": "criteo.com",
-    "sites": 72
-  },
-  {
-    "month": "2023-10",
-    "name": "doubleclick.net",
-    "sites": 77
-  },
-  {
-    "month": "2023-10",
-    "name": "facebook.com",
-    "sites": 75
-  },
-  {
-    "month": "2023-10",
-    "name": "google.com",
-    "sites": 75
-  },
-  {
-    "month": "2023-10",
-    "name": "id5-sync.com",
-    "sites": 49
-  },
-  {
-    "month": "2023-10",
-    "name": "linkedin.com",
-    "sites": 72
-  },
-  {
-    "month": "2023-10",
-    "name": "onetrust.com",
-    "sites": 70
-  },
-  {
-    "month": "2023-10",
-    "name": "rubiconproject.com",
-    "sites": 74
-  },
-  {
-    "month": "2023-11",
-    "name": "adnxs.com",
-    "sites": 40
-  },
-  {
-    "month": "2023-11",
-    "name": "adsrvr.org",
-    "sites": 40
-  },
-  {
-    "month": "2023-11",
-    "name": "criteo.com",
-    "sites": 41
-  },
-  {
-    "month": "2023-11",
-    "name": "doubleclick.net",
-    "sites": 42
-  },
-  {
-    "month": "2023-11",
-    "name": "facebook.com",
-    "sites": 39
-  },
-  {
-    "month": "2023-11",
-    "name": "google.com",
-    "sites": 41
-  },
-  {
-    "month": "2023-11",
-    "name": "id5-sync.com",
-    "sites": 32
-  },
-  {
-    "month": "2023-11",
-    "name": "linkedin.com",
-    "sites": 42
-  },
-  {
-    "month": "2023-11",
-    "name": "onetrust.com",
-    "sites": 40
-  },
-  {
-    "month": "2023-11",
-    "name": "rubiconproject.com",
-    "sites": 40
-  },
-  {
-    "month": "2023-12",
-    "name": "adnxs.com",
-    "sites": 37
-  },
-  {
-    "month": "2023-12",
-    "name": "adsrvr.org",
-    "sites": 36
-  },
-  {
-    "month": "2023-12",
-    "name": "criteo.com",
-    "sites": 35
-  },
-  {
-    "month": "2023-12",
-    "name": "doubleclick.net",
-    "sites": 39
-  },
-  {
-    "month": "2023-12",
-    "name": "facebook.com",
-    "sites": 30
-  },
-  {
-    "month": "2023-12",
-    "name": "google.com",
-    "sites": 39
-  },
-  {
-    "month": "2023-12",
-    "name": "id5-sync.com",
-    "sites": 28
-  },
-  {
-    "month": "2023-12",
-    "name": "linkedin.com",
-    "sites": 37
-  },
-  {
-    "month": "2023-12",
-    "name": "onetrust.com",
-    "sites": 36
-  },
-  {
-    "month": "2023-12",
-    "name": "rubiconproject.com",
-    "sites": 37
-  },
-  {
-    "month": "2024-01",
-    "name": "adnxs.com",
-    "sites": 73
-  },
-  {
-    "month": "2024-01",
-    "name": "adsrvr.org",
-    "sites": 77
-  },
-  {
-    "month": "2024-01",
-    "name": "criteo.com",
-    "sites": 72
-  },
-  {
-    "month": "2024-01",
-    "name": "doubleclick.net",
-    "sites": 77
-  },
-  {
-    "month": "2024-01",
-    "name": "facebook.com",
-    "sites": 68
-  },
-  {
-    "month": "2024-01",
-    "name": "google.com",
-    "sites": 76
-  },
-  {
-    "month": "2024-01",
-    "name": "id5-sync.com",
-    "sites": 49
-  },
-  {
-    "month": "2024-01",
-    "name": "linkedin.com",
-    "sites": 75
-  },
-  {
-    "month": "2024-01",
-    "name": "onetrust.com",
-    "sites": 72
-  },
-  {
-    "month": "2024-01",
-    "name": "rubiconproject.com",
-    "sites": 72
-  },
-  {
-    "month": "2024-02",
-    "name": "adnxs.com",
-    "sites": 64
-  },
-  {
-    "month": "2024-02",
-    "name": "adsrvr.org",
-    "sites": 63
-  },
-  {
-    "month": "2024-02",
-    "name": "criteo.com",
-    "sites": 62
-  },
-  {
-    "month": "2024-02",
-    "name": "doubleclick.net",
-    "sites": 65
-  },
-  {
-    "month": "2024-02",
-    "name": "facebook.com",
-    "sites": 63
-  },
-  {
-    "month": "2024-02",
-    "name": "google.com",
-    "sites": 64
-  },
-  {
-    "month": "2024-02",
-    "name": "id5-sync.com",
-    "sites": 47
-  },
-  {
-    "month": "2024-02",
-    "name": "linkedin.com",
-    "sites": 59
-  },
-  {
-    "month": "2024-02",
-    "name": "onetrust.com",
-    "sites": 61
-  },
-  {
-    "month": "2024-02",
-    "name": "rubiconproject.com",
-    "sites": 56
-  },
-  {
-    "month": "2024-03",
-    "name": "adnxs.com",
-    "sites": 84
-  },
-  {
-    "month": "2024-03",
-    "name": "adsrvr.org",
-    "sites": 85
-  },
-  {
-    "month": "2024-03",
-    "name": "criteo.com",
-    "sites": 82
-  },
-  {
-    "month": "2024-03",
-    "name": "doubleclick.net",
-    "sites": 86
-  },
-  {
-    "month": "2024-03",
-    "name": "facebook.com",
-    "sites": 81
-  },
-  {
-    "month": "2024-03",
-    "name": "google.com",
-    "sites": 87
-  },
-  {
-    "month": "2024-03",
-    "name": "id5-sync.com",
-    "sites": 55
-  },
-  {
-    "month": "2024-03",
-    "name": "linkedin.com",
-    "sites": 84
-  },
-  {
-    "month": "2024-03",
-    "name": "onetrust.com",
-    "sites": 82
-  },
-  {
-    "month": "2024-03",
-    "name": "rubiconproject.com",
-    "sites": 78
-  },
-  {
-    "month": "2024-04",
-    "name": "adnxs.com",
-    "sites": 82
-  },
-  {
-    "month": "2024-04",
-    "name": "adsrvr.org",
-    "sites": 77
-  },
-  {
-    "month": "2024-04",
-    "name": "criteo.com",
-    "sites": 78
-  },
-  {
-    "month": "2024-04",
-    "name": "doubleclick.net",
-    "sites": 85
-  },
-  {
-    "month": "2024-04",
-    "name": "facebook.com",
-    "sites": 85
-  },
-  {
-    "month": "2024-04",
-    "name": "google.com",
-    "sites": 85
-  },
-  {
-    "month": "2024-04",
-    "name": "id5-sync.com",
-    "sites": 51
-  },
-  {
-    "month": "2024-04",
-    "name": "linkedin.com",
-    "sites": 78
-  },
-  {
-    "month": "2024-04",
-    "name": "onetrust.com",
-    "sites": 80
-  },
-  {
-    "month": "2024-04",
-    "name": "rubiconproject.com",
-    "sites": 76
-  },
-  {
-    "month": "2024-05",
-    "name": "adnxs.com",
-    "sites": 79
-  },
-  {
-    "month": "2024-05",
-    "name": "adsrvr.org",
-    "sites": 78
-  },
-  {
-    "month": "2024-05",
-    "name": "criteo.com",
-    "sites": 83
-  },
-  {
-    "month": "2024-05",
-    "name": "doubleclick.net",
-    "sites": 83
-  },
-  {
-    "month": "2024-05",
-    "name": "facebook.com",
-    "sites": 78
-  },
-  {
-    "month": "2024-05",
-    "name": "google.com",
-    "sites": 85
-  },
-  {
-    "month": "2024-05",
-    "name": "id5-sync.com",
-    "sites": 61
-  },
-  {
-    "month": "2024-05",
-    "name": "linkedin.com",
-    "sites": 84
-  },
-  {
-    "month": "2024-05",
-    "name": "onetrust.com",
-    "sites": 79
-  },
-  {
-    "month": "2024-05",
-    "name": "rubiconproject.com",
-    "sites": 77
-  },
-  {
-    "month": "2024-06",
-    "name": "adnxs.com",
-    "sites": 87
-  },
-  {
-    "month": "2024-06",
-    "name": "adsrvr.org",
-    "sites": 84
-  },
-  {
-    "month": "2024-06",
-    "name": "criteo.com",
-    "sites": 84
-  },
-  {
-    "month": "2024-06",
-    "name": "doubleclick.net",
-    "sites": 87
-  },
-  {
-    "month": "2024-06",
-    "name": "facebook.com",
-    "sites": 72
-  },
-  {
-    "month": "2024-06",
-    "name": "google.com",
-    "sites": 84
-  },
-  {
-    "month": "2024-06",
-    "name": "id5-sync.com",
-    "sites": 59
-  },
-  {
-    "month": "2024-06",
-    "name": "linkedin.com",
-    "sites": 83
-  },
-  {
-    "month": "2024-06",
-    "name": "onetrust.com",
-    "sites": 87
-  },
-  {
-    "month": "2024-06",
-    "name": "rubiconproject.com",
-    "sites": 80
-  },
-  {
-    "month": "2024-07",
-    "name": "adnxs.com",
-    "sites": 61
-  },
-  {
-    "month": "2024-07",
-    "name": "adsrvr.org",
-    "sites": 61
-  },
-  {
-    "month": "2024-07",
-    "name": "criteo.com",
-    "sites": 58
-  },
-  {
-    "month": "2024-07",
-    "name": "doubleclick.net",
-    "sites": 63
-  },
-  {
-    "month": "2024-07",
-    "name": "facebook.com",
-    "sites": 58
-  },
-  {
-    "month": "2024-07",
-    "name": "google.com",
-    "sites": 63
-  },
-  {
-    "month": "2024-07",
-    "name": "id5-sync.com",
-    "sites": 49
-  },
-  {
-    "month": "2024-07",
-    "name": "linkedin.com",
-    "sites": 60
-  },
-  {
-    "month": "2024-07",
-    "name": "onetrust.com",
-    "sites": 60
-  },
-  {
-    "month": "2024-07",
-    "name": "rubiconproject.com",
-    "sites": 62
-  },
-  {
-    "month": "2024-08",
-    "name": "adnxs.com",
-    "sites": 59
-  },
-  {
-    "month": "2024-08",
-    "name": "adsrvr.org",
-    "sites": 55
-  },
-  {
-    "month": "2024-08",
-    "name": "criteo.com",
-    "sites": 58
-  },
-  {
     "month": "2024-08",
     "name": "doubleclick.net",
-    "sites": 60
-  },
-  {
-    "month": "2024-08",
-    "name": "facebook.com",
-    "sites": 55
-  },
-  {
-    "month": "2024-08",
-    "name": "google.com",
-    "sites": 60
-  },
-  {
-    "month": "2024-08",
-    "name": "id5-sync.com",
-    "sites": 52
-  },
-  {
-    "month": "2024-08",
-    "name": "linkedin.com",
-    "sites": 56
-  },
-  {
-    "month": "2024-08",
-    "name": "onetrust.com",
-    "sites": 59
-  },
-  {
-    "month": "2024-08",
-    "name": "rubiconproject.com",
-    "sites": 56
-  },
-  {
-    "month": "2024-09",
-    "name": "adnxs.com",
-    "sites": 44
-  },
-  {
-    "month": "2024-09",
-    "name": "adsrvr.org",
-    "sites": 43
-  },
-  {
-    "month": "2024-09",
-    "name": "criteo.com",
-    "sites": 43
+    "pct": 54.7
   },
   {
     "month": "2024-09",
     "name": "doubleclick.net",
-    "sites": 45
+    "pct": 58.1
+  },
+  {
+    "month": "2024-10",
+    "name": "doubleclick.net",
+    "pct": 56.4
+  },
+  {
+    "month": "2024-11",
+    "name": "doubleclick.net",
+    "pct": 56.3
+  },
+  {
+    "month": "2024-12",
+    "name": "doubleclick.net",
+    "pct": 55.9
+  },
+  {
+    "month": "2025-01",
+    "name": "doubleclick.net",
+    "pct": 54.6
+  },
+  {
+    "month": "2025-02",
+    "name": "doubleclick.net",
+    "pct": 46.8
+  },
+  {
+    "month": "2025-03",
+    "name": "doubleclick.net",
+    "pct": 54.6
+  },
+  {
+    "month": "2025-04",
+    "name": "doubleclick.net",
+    "pct": 52.2
+  },
+  {
+    "month": "2025-05",
+    "name": "doubleclick.net",
+    "pct": 51.8
+  },
+  {
+    "month": "2025-06",
+    "name": "doubleclick.net",
+    "pct": 51.7
+  },
+  {
+    "month": "2025-07",
+    "name": "doubleclick.net",
+    "pct": 43.9
+  },
+  {
+    "month": "2025-08",
+    "name": "doubleclick.net",
+    "pct": 54.6
+  },
+  {
+    "month": "2025-09",
+    "name": "doubleclick.net",
+    "pct": 53.0
+  },
+  {
+    "month": "2025-10",
+    "name": "doubleclick.net",
+    "pct": 51.6
+  },
+  {
+    "month": "2025-11",
+    "name": "doubleclick.net",
+    "pct": 51.2
+  },
+  {
+    "month": "2025-12",
+    "name": "doubleclick.net",
+    "pct": 51.1
+  },
+  {
+    "month": "2026-01",
+    "name": "doubleclick.net",
+    "pct": 51.5
+  },
+  {
+    "month": "2026-02",
+    "name": "doubleclick.net",
+    "pct": 51.4
+  },
+  {
+    "month": "2026-03",
+    "name": "doubleclick.net",
+    "pct": 51.6
+  },
+  {
+    "month": "2026-04",
+    "name": "doubleclick.net",
+    "pct": 50.9
+  },
+  {
+    "month": "2024-08",
+    "name": "google.com",
+    "pct": 61.1
+  },
+  {
+    "month": "2024-09",
+    "name": "google.com",
+    "pct": 61.2
+  },
+  {
+    "month": "2024-10",
+    "name": "google.com",
+    "pct": 60.8
+  },
+  {
+    "month": "2024-11",
+    "name": "google.com",
+    "pct": 61.8
+  },
+  {
+    "month": "2024-12",
+    "name": "google.com",
+    "pct": 58.6
+  },
+  {
+    "month": "2025-01",
+    "name": "google.com",
+    "pct": 58.0
+  },
+  {
+    "month": "2025-02",
+    "name": "google.com",
+    "pct": 57.8
+  },
+  {
+    "month": "2025-03",
+    "name": "google.com",
+    "pct": 57.9
+  },
+  {
+    "month": "2025-04",
+    "name": "google.com",
+    "pct": 58.5
+  },
+  {
+    "month": "2025-05",
+    "name": "google.com",
+    "pct": 56.7
+  },
+  {
+    "month": "2025-06",
+    "name": "google.com",
+    "pct": 55.0
+  },
+  {
+    "month": "2025-07",
+    "name": "google.com",
+    "pct": 55.7
+  },
+  {
+    "month": "2025-08",
+    "name": "google.com",
+    "pct": 55.1
+  },
+  {
+    "month": "2025-09",
+    "name": "google.com",
+    "pct": 54.1
+  },
+  {
+    "month": "2025-10",
+    "name": "google.com",
+    "pct": 53.4
+  },
+  {
+    "month": "2025-11",
+    "name": "google.com",
+    "pct": 51.8
+  },
+  {
+    "month": "2025-12",
+    "name": "google.com",
+    "pct": 51.4
+  },
+  {
+    "month": "2026-01",
+    "name": "google.com",
+    "pct": 54.0
+  },
+  {
+    "month": "2026-02",
+    "name": "google.com",
+    "pct": 58.7
+  },
+  {
+    "month": "2026-03",
+    "name": "google.com",
+    "pct": 58.6
+  },
+  {
+    "month": "2026-04",
+    "name": "google.com",
+    "pct": 58.1
+  },
+  {
+    "month": "2024-08",
+    "name": "adnxs.com",
+    "pct": 18.5
+  },
+  {
+    "month": "2024-09",
+    "name": "adnxs.com",
+    "pct": 19.8
+  },
+  {
+    "month": "2024-10",
+    "name": "adnxs.com",
+    "pct": 19.4
+  },
+  {
+    "month": "2024-11",
+    "name": "adnxs.com",
+    "pct": 19.2
+  },
+  {
+    "month": "2024-12",
+    "name": "adnxs.com",
+    "pct": 19.1
+  },
+  {
+    "month": "2025-01",
+    "name": "adnxs.com",
+    "pct": 18.5
+  },
+  {
+    "month": "2025-02",
+    "name": "adnxs.com",
+    "pct": 15.9
+  },
+  {
+    "month": "2025-03",
+    "name": "adnxs.com",
+    "pct": 18.4
+  },
+  {
+    "month": "2025-04",
+    "name": "adnxs.com",
+    "pct": 17.9
+  },
+  {
+    "month": "2025-05",
+    "name": "adnxs.com",
+    "pct": 17.6
+  },
+  {
+    "month": "2025-06",
+    "name": "adnxs.com",
+    "pct": 17.3
+  },
+  {
+    "month": "2025-07",
+    "name": "adnxs.com",
+    "pct": 14.5
+  },
+  {
+    "month": "2025-08",
+    "name": "adnxs.com",
+    "pct": 16.9
+  },
+  {
+    "month": "2025-09",
+    "name": "adnxs.com",
+    "pct": 16.6
+  },
+  {
+    "month": "2025-10",
+    "name": "adnxs.com",
+    "pct": 15.8
+  },
+  {
+    "month": "2025-11",
+    "name": "adnxs.com",
+    "pct": 15.5
+  },
+  {
+    "month": "2025-12",
+    "name": "adnxs.com",
+    "pct": 15.5
+  },
+  {
+    "month": "2026-01",
+    "name": "adnxs.com",
+    "pct": 14.9
+  },
+  {
+    "month": "2026-02",
+    "name": "adnxs.com",
+    "pct": 14.3
+  },
+  {
+    "month": "2026-03",
+    "name": "adnxs.com",
+    "pct": 14.9
+  },
+  {
+    "month": "2026-04",
+    "name": "adnxs.com",
+    "pct": 14.0
+  },
+  {
+    "month": "2024-08",
+    "name": "facebook.com",
+    "pct": 21.4
   },
   {
     "month": "2024-09",
     "name": "facebook.com",
-    "sites": 45
+    "pct": 22.5
+  },
+  {
+    "month": "2024-10",
+    "name": "facebook.com",
+    "pct": 21.8
+  },
+  {
+    "month": "2024-11",
+    "name": "facebook.com",
+    "pct": 22.2
+  },
+  {
+    "month": "2024-12",
+    "name": "facebook.com",
+    "pct": 21.9
+  },
+  {
+    "month": "2025-01",
+    "name": "facebook.com",
+    "pct": 20.0
+  },
+  {
+    "month": "2025-02",
+    "name": "facebook.com",
+    "pct": 18.0
+  },
+  {
+    "month": "2025-03",
+    "name": "facebook.com",
+    "pct": 17.9
+  },
+  {
+    "month": "2025-04",
+    "name": "facebook.com",
+    "pct": 19.0
+  },
+  {
+    "month": "2025-05",
+    "name": "facebook.com",
+    "pct": 20.0
+  },
+  {
+    "month": "2025-06",
+    "name": "facebook.com",
+    "pct": 16.6
+  },
+  {
+    "month": "2025-07",
+    "name": "facebook.com",
+    "pct": 12.8
+  },
+  {
+    "month": "2025-08",
+    "name": "facebook.com",
+    "pct": 16.9
+  },
+  {
+    "month": "2025-09",
+    "name": "facebook.com",
+    "pct": 18.1
+  },
+  {
+    "month": "2025-10",
+    "name": "facebook.com",
+    "pct": 20.1
+  },
+  {
+    "month": "2025-11",
+    "name": "facebook.com",
+    "pct": 19.7
+  },
+  {
+    "month": "2025-12",
+    "name": "facebook.com",
+    "pct": 19.6
+  },
+  {
+    "month": "2026-01",
+    "name": "facebook.com",
+    "pct": 19.8
+  },
+  {
+    "month": "2026-02",
+    "name": "facebook.com",
+    "pct": 19.1
+  },
+  {
+    "month": "2026-03",
+    "name": "facebook.com",
+    "pct": 18.6
+  },
+  {
+    "month": "2026-04",
+    "name": "facebook.com",
+    "pct": 18.7
+  },
+  {
+    "month": "2024-08",
+    "name": "adsrvr.org",
+    "pct": 15.1
   },
   {
     "month": "2024-09",
-    "name": "google.com",
-    "sites": 44
+    "name": "adsrvr.org",
+    "pct": 16.4
+  },
+  {
+    "month": "2024-10",
+    "name": "adsrvr.org",
+    "pct": 16.0
+  },
+  {
+    "month": "2024-11",
+    "name": "adsrvr.org",
+    "pct": 15.9
+  },
+  {
+    "month": "2024-12",
+    "name": "adsrvr.org",
+    "pct": 15.9
+  },
+  {
+    "month": "2025-01",
+    "name": "adsrvr.org",
+    "pct": 15.5
+  },
+  {
+    "month": "2025-02",
+    "name": "adsrvr.org",
+    "pct": 13.5
+  },
+  {
+    "month": "2025-03",
+    "name": "adsrvr.org",
+    "pct": 16.2
+  },
+  {
+    "month": "2025-04",
+    "name": "adsrvr.org",
+    "pct": 16.1
+  },
+  {
+    "month": "2025-05",
+    "name": "adsrvr.org",
+    "pct": 15.9
+  },
+  {
+    "month": "2025-06",
+    "name": "adsrvr.org",
+    "pct": 15.4
+  },
+  {
+    "month": "2025-07",
+    "name": "adsrvr.org",
+    "pct": 12.5
+  },
+  {
+    "month": "2025-08",
+    "name": "adsrvr.org",
+    "pct": 14.9
+  },
+  {
+    "month": "2025-09",
+    "name": "adsrvr.org",
+    "pct": 14.7
+  },
+  {
+    "month": "2025-10",
+    "name": "adsrvr.org",
+    "pct": 14.2
+  },
+  {
+    "month": "2025-11",
+    "name": "adsrvr.org",
+    "pct": 14.0
+  },
+  {
+    "month": "2025-12",
+    "name": "adsrvr.org",
+    "pct": 14.1
+  },
+  {
+    "month": "2026-01",
+    "name": "adsrvr.org",
+    "pct": 13.8
+  },
+  {
+    "month": "2026-02",
+    "name": "adsrvr.org",
+    "pct": 13.2
+  },
+  {
+    "month": "2026-03",
+    "name": "adsrvr.org",
+    "pct": 13.8
+  },
+  {
+    "month": "2026-04",
+    "name": "adsrvr.org",
+    "pct": 13.0
+  },
+  {
+    "month": "2024-08",
+    "name": "criteo.com",
+    "pct": 14.6
+  },
+  {
+    "month": "2024-09",
+    "name": "criteo.com",
+    "pct": 16.8
+  },
+  {
+    "month": "2024-10",
+    "name": "criteo.com",
+    "pct": 16.7
+  },
+  {
+    "month": "2024-11",
+    "name": "criteo.com",
+    "pct": 17.0
+  },
+  {
+    "month": "2024-12",
+    "name": "criteo.com",
+    "pct": 16.5
+  },
+  {
+    "month": "2025-01",
+    "name": "criteo.com",
+    "pct": 17.1
+  },
+  {
+    "month": "2025-02",
+    "name": "criteo.com",
+    "pct": 14.9
+  },
+  {
+    "month": "2025-03",
+    "name": "criteo.com",
+    "pct": 17.4
+  },
+  {
+    "month": "2025-04",
+    "name": "criteo.com",
+    "pct": 16.8
+  },
+  {
+    "month": "2025-05",
+    "name": "criteo.com",
+    "pct": 16.9
+  },
+  {
+    "month": "2025-06",
+    "name": "criteo.com",
+    "pct": 16.6
+  },
+  {
+    "month": "2025-07",
+    "name": "criteo.com",
+    "pct": 14.7
+  },
+  {
+    "month": "2025-08",
+    "name": "criteo.com",
+    "pct": 18.3
+  },
+  {
+    "month": "2025-09",
+    "name": "criteo.com",
+    "pct": 17.3
+  },
+  {
+    "month": "2025-10",
+    "name": "criteo.com",
+    "pct": 17.2
+  },
+  {
+    "month": "2025-11",
+    "name": "criteo.com",
+    "pct": 16.7
+  },
+  {
+    "month": "2025-12",
+    "name": "criteo.com",
+    "pct": 17.2
+  },
+  {
+    "month": "2026-01",
+    "name": "criteo.com",
+    "pct": 18.0
+  },
+  {
+    "month": "2026-02",
+    "name": "criteo.com",
+    "pct": 17.7
+  },
+  {
+    "month": "2026-03",
+    "name": "criteo.com",
+    "pct": 17.7
+  },
+  {
+    "month": "2026-04",
+    "name": "criteo.com",
+    "pct": 17.4
+  },
+  {
+    "month": "2024-08",
+    "name": "linkedin.com",
+    "pct": 13.4
+  },
+  {
+    "month": "2024-09",
+    "name": "linkedin.com",
+    "pct": 14.7
+  },
+  {
+    "month": "2024-10",
+    "name": "linkedin.com",
+    "pct": 15.4
+  },
+  {
+    "month": "2024-11",
+    "name": "linkedin.com",
+    "pct": 13.7
+  },
+  {
+    "month": "2024-12",
+    "name": "linkedin.com",
+    "pct": 15.4
+  },
+  {
+    "month": "2025-01",
+    "name": "linkedin.com",
+    "pct": 12.2
+  },
+  {
+    "month": "2025-02",
+    "name": "linkedin.com",
+    "pct": 10.7
+  },
+  {
+    "month": "2025-03",
+    "name": "linkedin.com",
+    "pct": 13.1
+  },
+  {
+    "month": "2025-04",
+    "name": "linkedin.com",
+    "pct": 13.9
+  },
+  {
+    "month": "2025-05",
+    "name": "linkedin.com",
+    "pct": 13.9
+  },
+  {
+    "month": "2025-06",
+    "name": "linkedin.com",
+    "pct": 13.0
+  },
+  {
+    "month": "2025-07",
+    "name": "linkedin.com",
+    "pct": 10.8
+  },
+  {
+    "month": "2025-08",
+    "name": "linkedin.com",
+    "pct": 13.8
+  },
+  {
+    "month": "2025-09",
+    "name": "linkedin.com",
+    "pct": 13.7
+  },
+  {
+    "month": "2025-10",
+    "name": "linkedin.com",
+    "pct": 12.9
+  },
+  {
+    "month": "2025-11",
+    "name": "linkedin.com",
+    "pct": 12.5
+  },
+  {
+    "month": "2025-12",
+    "name": "linkedin.com",
+    "pct": 13.3
+  },
+  {
+    "month": "2026-01",
+    "name": "linkedin.com",
+    "pct": 12.6
+  },
+  {
+    "month": "2026-02",
+    "name": "linkedin.com",
+    "pct": 11.5
+  },
+  {
+    "month": "2026-03",
+    "name": "linkedin.com",
+    "pct": 12.3
+  },
+  {
+    "month": "2026-04",
+    "name": "linkedin.com",
+    "pct": 11.2
+  },
+  {
+    "month": "2024-08",
+    "name": "rubiconproject.com",
+    "pct": 14.5
+  },
+  {
+    "month": "2024-09",
+    "name": "rubiconproject.com",
+    "pct": 15.6
+  },
+  {
+    "month": "2024-10",
+    "name": "rubiconproject.com",
+    "pct": 15.5
+  },
+  {
+    "month": "2024-11",
+    "name": "rubiconproject.com",
+    "pct": 15.7
+  },
+  {
+    "month": "2024-12",
+    "name": "rubiconproject.com",
+    "pct": 15.4
+  },
+  {
+    "month": "2025-01",
+    "name": "rubiconproject.com",
+    "pct": 15.6
+  },
+  {
+    "month": "2025-02",
+    "name": "rubiconproject.com",
+    "pct": 13.5
+  },
+  {
+    "month": "2025-03",
+    "name": "rubiconproject.com",
+    "pct": 15.6
+  },
+  {
+    "month": "2025-04",
+    "name": "rubiconproject.com",
+    "pct": 15.0
+  },
+  {
+    "month": "2025-05",
+    "name": "rubiconproject.com",
+    "pct": 15.1
+  },
+  {
+    "month": "2025-06",
+    "name": "rubiconproject.com",
+    "pct": 14.9
+  },
+  {
+    "month": "2025-07",
+    "name": "rubiconproject.com",
+    "pct": 12.0
+  },
+  {
+    "month": "2025-08",
+    "name": "rubiconproject.com",
+    "pct": 13.9
+  },
+  {
+    "month": "2025-09",
+    "name": "rubiconproject.com",
+    "pct": 13.9
+  },
+  {
+    "month": "2025-10",
+    "name": "rubiconproject.com",
+    "pct": 13.4
+  },
+  {
+    "month": "2025-11",
+    "name": "rubiconproject.com",
+    "pct": 13.2
+  },
+  {
+    "month": "2025-12",
+    "name": "rubiconproject.com",
+    "pct": 13.3
+  },
+  {
+    "month": "2026-01",
+    "name": "rubiconproject.com",
+    "pct": 13.1
+  },
+  {
+    "month": "2026-02",
+    "name": "rubiconproject.com",
+    "pct": 12.6
+  },
+  {
+    "month": "2026-03",
+    "name": "rubiconproject.com",
+    "pct": 13.2
+  },
+  {
+    "month": "2026-04",
+    "name": "rubiconproject.com",
+    "pct": 12.9
+  },
+  {
+    "month": "2024-08",
+    "name": "onetrust.com",
+    "pct": 17.1
+  },
+  {
+    "month": "2024-09",
+    "name": "onetrust.com",
+    "pct": 16.6
+  },
+  {
+    "month": "2024-10",
+    "name": "onetrust.com",
+    "pct": 17.2
+  },
+  {
+    "month": "2024-11",
+    "name": "onetrust.com",
+    "pct": 17.0
+  },
+  {
+    "month": "2024-12",
+    "name": "onetrust.com",
+    "pct": 17.3
+  },
+  {
+    "month": "2025-01",
+    "name": "onetrust.com",
+    "pct": 16.5
+  },
+  {
+    "month": "2025-02",
+    "name": "onetrust.com",
+    "pct": 17.8
+  },
+  {
+    "month": "2025-03",
+    "name": "onetrust.com",
+    "pct": 16.9
+  },
+  {
+    "month": "2025-04",
+    "name": "onetrust.com",
+    "pct": 17.1
+  },
+  {
+    "month": "2025-05",
+    "name": "onetrust.com",
+    "pct": 17.0
+  },
+  {
+    "month": "2025-06",
+    "name": "onetrust.com",
+    "pct": 16.8
+  },
+  {
+    "month": "2025-07",
+    "name": "onetrust.com",
+    "pct": 16.9
+  },
+  {
+    "month": "2025-08",
+    "name": "onetrust.com",
+    "pct": 15.0
+  },
+  {
+    "month": "2025-09",
+    "name": "onetrust.com",
+    "pct": 10.6
+  },
+  {
+    "month": "2025-10",
+    "name": "onetrust.com",
+    "pct": 10.2
+  },
+  {
+    "month": "2025-11",
+    "name": "onetrust.com",
+    "pct": 9.2
+  },
+  {
+    "month": "2025-12",
+    "name": "onetrust.com",
+    "pct": 9.4
+  },
+  {
+    "month": "2026-01",
+    "name": "onetrust.com",
+    "pct": 8.4
+  },
+  {
+    "month": "2026-02",
+    "name": "onetrust.com",
+    "pct": 5.8
+  },
+  {
+    "month": "2026-03",
+    "name": "onetrust.com",
+    "pct": 5.6
+  },
+  {
+    "month": "2026-04",
+    "name": "onetrust.com",
+    "pct": 5.2
+  },
+  {
+    "month": "2024-08",
+    "name": "id5-sync.com",
+    "pct": 9.7
   },
   {
     "month": "2024-09",
     "name": "id5-sync.com",
-    "sites": 42
-  },
-  {
-    "month": "2024-09",
-    "name": "linkedin.com",
-    "sites": 45
-  },
-  {
-    "month": "2024-09",
-    "name": "onetrust.com",
-    "sites": 43
-  },
-  {
-    "month": "2024-09",
-    "name": "rubiconproject.com",
-    "sites": 41
-  },
-  {
-    "month": "2024-10",
-    "name": "adnxs.com",
-    "sites": 52
-  },
-  {
-    "month": "2024-10",
-    "name": "adsrvr.org",
-    "sites": 53
-  },
-  {
-    "month": "2024-10",
-    "name": "criteo.com",
-    "sites": 51
-  },
-  {
-    "month": "2024-10",
-    "name": "doubleclick.net",
-    "sites": 54
-  },
-  {
-    "month": "2024-10",
-    "name": "facebook.com",
-    "sites": 50
-  },
-  {
-    "month": "2024-10",
-    "name": "google.com",
-    "sites": 53
+    "pct": 11.3
   },
   {
     "month": "2024-10",
     "name": "id5-sync.com",
-    "sites": 51
-  },
-  {
-    "month": "2024-10",
-    "name": "linkedin.com",
-    "sites": 53
-  },
-  {
-    "month": "2024-10",
-    "name": "onetrust.com",
-    "sites": 50
-  },
-  {
-    "month": "2024-10",
-    "name": "rubiconproject.com",
-    "sites": 50
-  },
-  {
-    "month": "2024-11",
-    "name": "adnxs.com",
-    "sites": 48
-  },
-  {
-    "month": "2024-11",
-    "name": "adsrvr.org",
-    "sites": 47
-  },
-  {
-    "month": "2024-11",
-    "name": "criteo.com",
-    "sites": 44
-  },
-  {
-    "month": "2024-11",
-    "name": "doubleclick.net",
-    "sites": 47
-  },
-  {
-    "month": "2024-11",
-    "name": "facebook.com",
-    "sites": 45
-  },
-  {
-    "month": "2024-11",
-    "name": "google.com",
-    "sites": 48
+    "pct": 11.2
   },
   {
     "month": "2024-11",
     "name": "id5-sync.com",
-    "sites": 43
-  },
-  {
-    "month": "2024-11",
-    "name": "linkedin.com",
-    "sites": 44
-  },
-  {
-    "month": "2024-11",
-    "name": "onetrust.com",
-    "sites": 46
-  },
-  {
-    "month": "2024-11",
-    "name": "rubiconproject.com",
-    "sites": 47
-  },
-  {
-    "month": "2024-12",
-    "name": "adnxs.com",
-    "sites": 47
-  },
-  {
-    "month": "2024-12",
-    "name": "adsrvr.org",
-    "sites": 47
-  },
-  {
-    "month": "2024-12",
-    "name": "criteo.com",
-    "sites": 44
-  },
-  {
-    "month": "2024-12",
-    "name": "doubleclick.net",
-    "sites": 48
-  },
-  {
-    "month": "2024-12",
-    "name": "facebook.com",
-    "sites": 48
-  },
-  {
-    "month": "2024-12",
-    "name": "google.com",
-    "sites": 48
+    "pct": 11.8
   },
   {
     "month": "2024-12",
     "name": "id5-sync.com",
-    "sites": 46
-  },
-  {
-    "month": "2024-12",
-    "name": "linkedin.com",
-    "sites": 46
-  },
-  {
-    "month": "2024-12",
-    "name": "onetrust.com",
-    "sites": 47
-  },
-  {
-    "month": "2024-12",
-    "name": "rubiconproject.com",
-    "sites": 46
-  },
-  {
-    "month": "2025-01",
-    "name": "adnxs.com",
-    "sites": 39
-  },
-  {
-    "month": "2025-01",
-    "name": "adsrvr.org",
-    "sites": 38
-  },
-  {
-    "month": "2025-01",
-    "name": "criteo.com",
-    "sites": 39
-  },
-  {
-    "month": "2025-01",
-    "name": "doubleclick.net",
-    "sites": 39
-  },
-  {
-    "month": "2025-01",
-    "name": "facebook.com",
-    "sites": 38
-  },
-  {
-    "month": "2025-01",
-    "name": "google.com",
-    "sites": 42
+    "pct": 11.7
   },
   {
     "month": "2025-01",
     "name": "id5-sync.com",
-    "sites": 36
-  },
-  {
-    "month": "2025-01",
-    "name": "linkedin.com",
-    "sites": 38
-  },
-  {
-    "month": "2025-01",
-    "name": "onetrust.com",
-    "sites": 41
-  },
-  {
-    "month": "2025-01",
-    "name": "rubiconproject.com",
-    "sites": 38
-  },
-  {
-    "month": "2025-02",
-    "name": "adnxs.com",
-    "sites": 42
-  },
-  {
-    "month": "2025-02",
-    "name": "adsrvr.org",
-    "sites": 42
-  },
-  {
-    "month": "2025-02",
-    "name": "criteo.com",
-    "sites": 40
-  },
-  {
-    "month": "2025-02",
-    "name": "doubleclick.net",
-    "sites": 42
-  },
-  {
-    "month": "2025-02",
-    "name": "facebook.com",
-    "sites": 40
-  },
-  {
-    "month": "2025-02",
-    "name": "google.com",
-    "sites": 42
+    "pct": 11.8
   },
   {
     "month": "2025-02",
     "name": "id5-sync.com",
-    "sites": 42
-  },
-  {
-    "month": "2025-02",
-    "name": "linkedin.com",
-    "sites": 40
-  },
-  {
-    "month": "2025-02",
-    "name": "onetrust.com",
-    "sites": 42
-  },
-  {
-    "month": "2025-02",
-    "name": "rubiconproject.com",
-    "sites": 40
-  },
-  {
-    "month": "2025-03",
-    "name": "adnxs.com",
-    "sites": 21
-  },
-  {
-    "month": "2025-03",
-    "name": "adsrvr.org",
-    "sites": 20
-  },
-  {
-    "month": "2025-03",
-    "name": "criteo.com",
-    "sites": 21
-  },
-  {
-    "month": "2025-03",
-    "name": "doubleclick.net",
-    "sites": 21
-  },
-  {
-    "month": "2025-03",
-    "name": "facebook.com",
-    "sites": 20
-  },
-  {
-    "month": "2025-03",
-    "name": "google.com",
-    "sites": 21
+    "pct": 10.5
   },
   {
     "month": "2025-03",
     "name": "id5-sync.com",
-    "sites": 20
-  },
-  {
-    "month": "2025-03",
-    "name": "linkedin.com",
-    "sites": 20
-  },
-  {
-    "month": "2025-03",
-    "name": "onetrust.com",
-    "sites": 21
-  },
-  {
-    "month": "2025-03",
-    "name": "rubiconproject.com",
-    "sites": 20
-  },
-  {
-    "month": "2025-04",
-    "name": "adnxs.com",
-    "sites": 48
-  },
-  {
-    "month": "2025-04",
-    "name": "adsrvr.org",
-    "sites": 47
-  },
-  {
-    "month": "2025-04",
-    "name": "criteo.com",
-    "sites": 47
-  },
-  {
-    "month": "2025-04",
-    "name": "doubleclick.net",
-    "sites": 48
-  },
-  {
-    "month": "2025-04",
-    "name": "facebook.com",
-    "sites": 47
-  },
-  {
-    "month": "2025-04",
-    "name": "google.com",
-    "sites": 47
+    "pct": 12.5
   },
   {
     "month": "2025-04",
     "name": "id5-sync.com",
-    "sites": 47
-  },
-  {
-    "month": "2025-04",
-    "name": "linkedin.com",
-    "sites": 45
-  },
-  {
-    "month": "2025-04",
-    "name": "onetrust.com",
-    "sites": 45
-  },
-  {
-    "month": "2025-04",
-    "name": "rubiconproject.com",
-    "sites": 47
-  },
-  {
-    "month": "2025-05",
-    "name": "adnxs.com",
-    "sites": 46
-  },
-  {
-    "month": "2025-05",
-    "name": "adsrvr.org",
-    "sites": 46
-  },
-  {
-    "month": "2025-05",
-    "name": "criteo.com",
-    "sites": 45
-  },
-  {
-    "month": "2025-05",
-    "name": "doubleclick.net",
-    "sites": 47
-  },
-  {
-    "month": "2025-05",
-    "name": "facebook.com",
-    "sites": 46
-  },
-  {
-    "month": "2025-05",
-    "name": "google.com",
-    "sites": 47
+    "pct": 12.5
   },
   {
     "month": "2025-05",
     "name": "id5-sync.com",
-    "sites": 45
-  },
-  {
-    "month": "2025-05",
-    "name": "linkedin.com",
-    "sites": 47
-  },
-  {
-    "month": "2025-05",
-    "name": "onetrust.com",
-    "sites": 46
-  },
-  {
-    "month": "2025-05",
-    "name": "rubiconproject.com",
-    "sites": 45
-  },
-  {
-    "month": "2025-06",
-    "name": "adnxs.com",
-    "sites": 30
-  },
-  {
-    "month": "2025-06",
-    "name": "adsrvr.org",
-    "sites": 30
-  },
-  {
-    "month": "2025-06",
-    "name": "criteo.com",
-    "sites": 30
-  },
-  {
-    "month": "2025-06",
-    "name": "doubleclick.net",
-    "sites": 30
-  },
-  {
-    "month": "2025-06",
-    "name": "facebook.com",
-    "sites": 27
-  },
-  {
-    "month": "2025-06",
-    "name": "google.com",
-    "sites": 29
+    "pct": 12.7
   },
   {
     "month": "2025-06",
     "name": "id5-sync.com",
-    "sites": 29
-  },
-  {
-    "month": "2025-06",
-    "name": "linkedin.com",
-    "sites": 29
-  },
-  {
-    "month": "2025-06",
-    "name": "onetrust.com",
-    "sites": 28
-  },
-  {
-    "month": "2025-06",
-    "name": "rubiconproject.com",
-    "sites": 30
-  },
-  {
-    "month": "2025-07",
-    "name": "adnxs.com",
-    "sites": 48
-  },
-  {
-    "month": "2025-07",
-    "name": "adsrvr.org",
-    "sites": 48
-  },
-  {
-    "month": "2025-07",
-    "name": "criteo.com",
-    "sites": 48
-  },
-  {
-    "month": "2025-07",
-    "name": "doubleclick.net",
-    "sites": 48
-  },
-  {
-    "month": "2025-07",
-    "name": "facebook.com",
-    "sites": 44
-  },
-  {
-    "month": "2025-07",
-    "name": "google.com",
-    "sites": 48
+    "pct": 12.6
   },
   {
     "month": "2025-07",
     "name": "id5-sync.com",
-    "sites": 48
-  },
-  {
-    "month": "2025-07",
-    "name": "linkedin.com",
-    "sites": 48
-  },
-  {
-    "month": "2025-07",
-    "name": "onetrust.com",
-    "sites": 47
-  },
-  {
-    "month": "2025-07",
-    "name": "rubiconproject.com",
-    "sites": 46
-  },
-  {
-    "month": "2025-08",
-    "name": "adnxs.com",
-    "sites": 45
-  },
-  {
-    "month": "2025-08",
-    "name": "adsrvr.org",
-    "sites": 47
-  },
-  {
-    "month": "2025-08",
-    "name": "criteo.com",
-    "sites": 48
-  },
-  {
-    "month": "2025-08",
-    "name": "doubleclick.net",
-    "sites": 48
-  },
-  {
-    "month": "2025-08",
-    "name": "facebook.com",
-    "sites": 46
-  },
-  {
-    "month": "2025-08",
-    "name": "google.com",
-    "sites": 48
+    "pct": 11.2
   },
   {
     "month": "2025-08",
     "name": "id5-sync.com",
-    "sites": 45
-  },
-  {
-    "month": "2025-08",
-    "name": "linkedin.com",
-    "sites": 46
-  },
-  {
-    "month": "2025-08",
-    "name": "onetrust.com",
-    "sites": 45
-  },
-  {
-    "month": "2025-08",
-    "name": "rubiconproject.com",
-    "sites": 48
-  },
-  {
-    "month": "2025-09",
-    "name": "adnxs.com",
-    "sites": 42
-  },
-  {
-    "month": "2025-09",
-    "name": "adsrvr.org",
-    "sites": 41
-  },
-  {
-    "month": "2025-09",
-    "name": "criteo.com",
-    "sites": 41
-  },
-  {
-    "month": "2025-09",
-    "name": "doubleclick.net",
-    "sites": 40
-  },
-  {
-    "month": "2025-09",
-    "name": "facebook.com",
-    "sites": 41
-  },
-  {
-    "month": "2025-09",
-    "name": "google.com",
-    "sites": 40
+    "pct": 13.7
   },
   {
     "month": "2025-09",
     "name": "id5-sync.com",
-    "sites": 40
-  },
-  {
-    "month": "2025-09",
-    "name": "linkedin.com",
-    "sites": 38
-  },
-  {
-    "month": "2025-09",
-    "name": "onetrust.com",
-    "sites": 39
-  },
-  {
-    "month": "2025-09",
-    "name": "rubiconproject.com",
-    "sites": 40
-  },
-  {
-    "month": "2025-10",
-    "name": "adnxs.com",
-    "sites": 48
-  },
-  {
-    "month": "2025-10",
-    "name": "adsrvr.org",
-    "sites": 47
-  },
-  {
-    "month": "2025-10",
-    "name": "criteo.com",
-    "sites": 47
-  },
-  {
-    "month": "2025-10",
-    "name": "doubleclick.net",
-    "sites": 48
-  },
-  {
-    "month": "2025-10",
-    "name": "facebook.com",
-    "sites": 46
-  },
-  {
-    "month": "2025-10",
-    "name": "google.com",
-    "sites": 48
+    "pct": 13.3
   },
   {
     "month": "2025-10",
     "name": "id5-sync.com",
-    "sites": 48
-  },
-  {
-    "month": "2025-10",
-    "name": "linkedin.com",
-    "sites": 48
-  },
-  {
-    "month": "2025-10",
-    "name": "onetrust.com",
-    "sites": 46
-  },
-  {
-    "month": "2025-10",
-    "name": "rubiconproject.com",
-    "sites": 46
-  },
-  {
-    "month": "2025-11",
-    "name": "adnxs.com",
-    "sites": 45
-  },
-  {
-    "month": "2025-11",
-    "name": "adsrvr.org",
-    "sites": 46
-  },
-  {
-    "month": "2025-11",
-    "name": "criteo.com",
-    "sites": 46
-  },
-  {
-    "month": "2025-11",
-    "name": "doubleclick.net",
-    "sites": 48
-  },
-  {
-    "month": "2025-11",
-    "name": "facebook.com",
-    "sites": 46
-  },
-  {
-    "month": "2025-11",
-    "name": "google.com",
-    "sites": 48
+    "pct": 12.8
   },
   {
     "month": "2025-11",
     "name": "id5-sync.com",
-    "sites": 46
-  },
-  {
-    "month": "2025-11",
-    "name": "linkedin.com",
-    "sites": 45
-  },
-  {
-    "month": "2025-11",
-    "name": "onetrust.com",
-    "sites": 47
-  },
-  {
-    "month": "2025-11",
-    "name": "rubiconproject.com",
-    "sites": 45
-  },
-  {
-    "month": "2025-12",
-    "name": "adnxs.com",
-    "sites": 41
-  },
-  {
-    "month": "2025-12",
-    "name": "adsrvr.org",
-    "sites": 42
-  },
-  {
-    "month": "2025-12",
-    "name": "criteo.com",
-    "sites": 44
-  },
-  {
-    "month": "2025-12",
-    "name": "doubleclick.net",
-    "sites": 44
-  },
-  {
-    "month": "2025-12",
-    "name": "facebook.com",
-    "sites": 42
-  },
-  {
-    "month": "2025-12",
-    "name": "google.com",
-    "sites": 41
+    "pct": 13.2
   },
   {
     "month": "2025-12",
     "name": "id5-sync.com",
-    "sites": 43
-  },
-  {
-    "month": "2025-12",
-    "name": "linkedin.com",
-    "sites": 41
-  },
-  {
-    "month": "2025-12",
-    "name": "onetrust.com",
-    "sites": 43
-  },
-  {
-    "month": "2025-12",
-    "name": "rubiconproject.com",
-    "sites": 42
-  },
-  {
-    "month": "2026-01",
-    "name": "adnxs.com",
-    "sites": 48
-  },
-  {
-    "month": "2026-01",
-    "name": "adsrvr.org",
-    "sites": 48
-  },
-  {
-    "month": "2026-01",
-    "name": "criteo.com",
-    "sites": 46
-  },
-  {
-    "month": "2026-01",
-    "name": "doubleclick.net",
-    "sites": 48
-  },
-  {
-    "month": "2026-01",
-    "name": "facebook.com",
-    "sites": 47
-  },
-  {
-    "month": "2026-01",
-    "name": "google.com",
-    "sites": 46
+    "pct": 13.2
   },
   {
     "month": "2026-01",
     "name": "id5-sync.com",
-    "sites": 47
-  },
-  {
-    "month": "2026-01",
-    "name": "linkedin.com",
-    "sites": 46
-  },
-  {
-    "month": "2026-01",
-    "name": "onetrust.com",
-    "sites": 47
-  },
-  {
-    "month": "2026-01",
-    "name": "rubiconproject.com",
-    "sites": 45
-  },
-  {
-    "month": "2026-02",
-    "name": "adnxs.com",
-    "sites": 44
-  },
-  {
-    "month": "2026-02",
-    "name": "adsrvr.org",
-    "sites": 42
-  },
-  {
-    "month": "2026-02",
-    "name": "criteo.com",
-    "sites": 44
-  },
-  {
-    "month": "2026-02",
-    "name": "doubleclick.net",
-    "sites": 44
-  },
-  {
-    "month": "2026-02",
-    "name": "facebook.com",
-    "sites": 43
-  },
-  {
-    "month": "2026-02",
-    "name": "google.com",
-    "sites": 45
+    "pct": 13.4
   },
   {
     "month": "2026-02",
     "name": "id5-sync.com",
-    "sites": 45
-  },
-  {
-    "month": "2026-02",
-    "name": "linkedin.com",
-    "sites": 44
-  },
-  {
-    "month": "2026-02",
-    "name": "onetrust.com",
-    "sites": 41
-  },
-  {
-    "month": "2026-02",
-    "name": "rubiconproject.com",
-    "sites": 44
-  },
-  {
-    "month": "2026-03",
-    "name": "adnxs.com",
-    "sites": 45
-  },
-  {
-    "month": "2026-03",
-    "name": "adsrvr.org",
-    "sites": 46
-  },
-  {
-    "month": "2026-03",
-    "name": "criteo.com",
-    "sites": 46
-  },
-  {
-    "month": "2026-03",
-    "name": "doubleclick.net",
-    "sites": 46
-  },
-  {
-    "month": "2026-03",
-    "name": "facebook.com",
-    "sites": 47
-  },
-  {
-    "month": "2026-03",
-    "name": "google.com",
-    "sites": 48
+    "pct": 13.1
   },
   {
     "month": "2026-03",
     "name": "id5-sync.com",
-    "sites": 46
-  },
-  {
-    "month": "2026-03",
-    "name": "linkedin.com",
-    "sites": 48
-  },
-  {
-    "month": "2026-03",
-    "name": "onetrust.com",
-    "sites": 42
-  },
-  {
-    "month": "2026-03",
-    "name": "rubiconproject.com",
-    "sites": 46
-  },
-  {
-    "month": "2026-04",
-    "name": "adnxs.com",
-    "sites": 43
-  },
-  {
-    "month": "2026-04",
-    "name": "adsrvr.org",
-    "sites": 43
-  },
-  {
-    "month": "2026-04",
-    "name": "criteo.com",
-    "sites": 44
-  },
-  {
-    "month": "2026-04",
-    "name": "doubleclick.net",
-    "sites": 43
-  },
-  {
-    "month": "2026-04",
-    "name": "facebook.com",
-    "sites": 43
-  },
-  {
-    "month": "2026-04",
-    "name": "google.com",
-    "sites": 44
+    "pct": 13.4
   },
   {
     "month": "2026-04",
     "name": "id5-sync.com",
-    "sites": 40
-  },
-  {
-    "month": "2026-04",
-    "name": "linkedin.com",
-    "sites": 42
-  },
-  {
-    "month": "2026-04",
-    "name": "onetrust.com",
-    "sites": 40
-  },
-  {
-    "month": "2026-04",
-    "name": "rubiconproject.com",
-    "sites": 41
+    "pct": 12.9
   }
 ]

@@ -212,24 +212,32 @@ function renderTrends(data) {
 
     const traces = Object.entries(byName).map(([name, points], i) => ({
         x: points.map(p => p.month),
-        y: points.map(p => p.sites),
+        y: points.map(p => p.pct),
         name,
         type: "scatter",
-        mode: "lines",
-        line: { color: COLORS[i % COLORS.length], width: 2 },
-        hovertemplate: `<b>${name}</b><br>%{x}: %{y} sites<extra></extra>`
+        mode: "lines+markers",
+        line: { color: COLORS[i % COLORS.length], width: 2.5, shape: "spline" },
+        marker: { size: 4, color: COLORS[i % COLORS.length] },
+        hovertemplate: `<b>${name}</b><br>%{x}: %{y}% of sites<extra></extra>`
     }));
 
     const fig = {
         data: traces,
         layout: {
             ...PLOT_LAYOUT,
-            height: 450,
-            yaxis: { ...PLOT_LAYOUT.yaxis, title: "Unique sites tracked" },
+            height: 500,
+            yaxis: {
+                ...PLOT_LAYOUT.yaxis,
+                title: "% of tracked sites",
+                ticksuffix: "%",
+                rangemode: "tozero",
+            },
             legend: {
-                orientation: "h", y: -0.15,
-                font: { color: "#6b7394", size: 11 }
-            }
+                orientation: "h", y: -0.2,
+                font: { color: "#8b8fa3", size: 11 },
+                xanchor: "center", x: 0.5,
+            },
+            hovermode: "x unified",
         }
     };
     Plotly.newPlot("chart-trends", fig.data, fig.layout, PLOT_CONFIG);

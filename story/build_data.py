@@ -98,16 +98,45 @@ print("✓ top_trackers.json")
 top10_names = [r["name"] for r in top_trackers[:10]]
 placeholders = ",".join("?" * len(top10_names))
 
-trends = query(f"""
-    SELECT strftime('%Y-%m', s.start_time) AS month,
+# First get total tracked sites per scan (no-blocking scans show true tracking)
+scan_totals = {r["id"]: r["total"] for r in query("""
+    SELECT s.id, COUNT(DISTINCT tr.site_id) AS total
+    FROM scan s JOIN tracking tr ON tr.scan_id = s.id
+    WHERE s.no_blocking = 1
+    GROUP BY s.id
+""")}
+
+# Then get per-tracker per-scan counts
+raw = query(f"""
+    SELECT s.id AS scan_id,
+           strftime('%Y-%m', s.start_time) AS month,
            t.base AS name,
            COUNT(DISTINCT tr.site_id) AS sites
     FROM tracking tr
     JOIN tracker t ON t.id = tr.tracker_id
     JOIN scan s ON s.id = tr.scan_id
-    WHERE t.base IN ({placeholders}) AND s.no_blocking = 0
-    GROUP BY month, t.base ORDER BY month
+    WHERE t.base IN ({placeholders}) AND s.no_blocking = 1
+    GROUP BY s.id, t.base
+    ORDER BY month
 """, top10_names)
+
+# Compute percentage and average by month
+from collections import defaultdict
+month_data = defaultdict(lambda: defaultdict(list))
+for row in raw:
+    total = scan_totals.get(row["scan_id"], 1)
+    pct = round(100.0 * row["sites"] / total, 1)
+    month_data[row["name"]][row["month"]].append(pct)
+
+trends = []
+for name in top10_names:
+    for m in sorted(month_data[name].keys()):
+        vals = month_data[name][m]
+        trends.append({
+            "month": m,
+            "name": name,
+            "pct": round(sum(vals) / len(vals), 1)
+        })
 
 with open(OUT / "tracker_trends.json", "w") as f:
     json.dump(trends, f, indent=2)
